@@ -1,5 +1,5 @@
 """
-Course: CSE 251 
+Course: CSE 351 
 Lesson: L02 team activity
 File:   prove.py
 Author: <Add name here>
@@ -37,20 +37,37 @@ import threading
 from common import *
 
 # Include cse 351 common Python files
-from cse251 import *
+from cse351 import *
 
 # global
 call_count = 0
 
+class CoolThread(threading.Thread):
+    def __init__ (self, kind, url):
+        self.kind = kind
+        self.url = url
+        super().__init__()
+    def run(self):
+        item = get_data_from_server(self.url)
+        print(f"  - {item['name']}")
+
 def get_urls(film6, kind):
     global call_count
+    thread_lock = threading.Lock()
 
     urls = film6[kind]
+    threads = []
     print(kind)
     for url in urls:
+        t = CoolThread(kind, url)
+        threads.append(t)
         call_count += 1
-        item = get_data_from_server(url)
-        print(f'  - {item['name']}')
+        with thread_lock:
+            call_count += 1
+        t.start()
+    for t in threads:
+        t.join()
+
 
 def main():
     global call_count
