@@ -31,7 +31,16 @@ def main():
 
     bank = Bank()
 
+    threads = []
+
+    for file_name in data_files:
+        atm_reader = ATM_Reader(file_name, bank)
+        threads.append(atm_reader)
+        atm_reader.start()
     # TODO - Add a ATM_Reader for each data file
+
+    for thread in threads:
+        thread.join()
 
     test_balances(bank)
 
@@ -39,21 +48,100 @@ def main():
 
 
 # ===========================================================================
-class ATM_Reader():
-    # TODO - implement this class here
-    ...
+class ATM_Reader(threading.Thread):
+    def __init__(self, file_name, bank):
+        super().__init__()
+        self.file_name = file_name
+        self.bank = bank
+
+    def run(self):
+        with open(self.file_name, 'r') as file:
+            for line in file:
+                line = line.strip()
+                
+                # Skip comment lines starting with '#'
+                if line.startswith('#') or not line:
+                    continue
+                
+                parts = line.split(",")
+                if len(parts) != 3:
+                    continue
+                
+                try:
+                    account_num = int(parts[0])  # Make sure this is a valid integer
+                    transaction_type = parts[1]
+                    amount = parts[2].strip()  # Ensure amount is a string
+                    
+                    # Add account if it doesn't exist
+                    self.bank.addAccount(account_num)
+
+                    if transaction_type == "d":  # Deposit
+                        self.bank.deposit(account_num, amount)
+                    elif transaction_type == "w":  # Withdrawal
+                        self.bank.withdraw(account_num, amount)
+
+                except ValueError as e:
+                    print(f"Skipping invalid line: {line}, Error: {e}")
 
 
-# ===========================================================================
+
 class Account():
-    # TODO - implement this class here
-    ...
+    def __init__(self, account_number):
+        self.account_number = account_number
+        self.balance = Money("0.00")  # Initial balance as Money object
+    
+    def deposit(self, amount):
+        """Handle deposit by adding money"""
+        self.balance.add(Money(str(amount)))  # Ensure amount is a valid string
+    
+    def withdraw(self, amount):
+        """Handle withdrawal by subtracting money"""
+        self.balance.sub(Money(str(amount)))  # Ensure amount is a valid string
+    
+    def get_balance(self):
+        return self.balance  # Return balance as Money object
 
 
-# ===========================================================================
 class Bank():
+    def __init__(self):
+        self.accounts = {}
+        self.lock = threading.Lock()
+
+    def addAccount(self, account_number):
+        """Add account if it doesn't already exist"""
+        with self.lock:
+            if account_number not in self.accounts:
+                new_account = Account(account_number)
+                self.accounts[account_number] = new_account
+
+    def deposit(self, account_num, amount):
+        """Deposit the amount to the specified account"""
+        with self.lock:
+            if account_num in self.accounts:
+                selected_account = self.accounts[account_num]
+                selected_account.deposit(amount)
+
+    def withdraw(self, account_num, amount):
+        """Withdraw the amount from the specified account"""
+        with self.lock:
+            if account_num in self.accounts:
+                selected_account = self.accounts[account_num]
+                selected_account.withdraw(amount)
+
+    def get_balance(self, account_num):
+        with self.lock:
+            if account_num in self.accounts:
+                selected_account = self.accounts[account_num]
+                return selected_account.get_balance()
+            else:
+                return Money("0.00")  # Optional fallback
+        
     # TODO - implement this class here
-    ...
+#     accounts: dictionary
+    # +__init__()
+    # +deposit(account, amount) : void
+    # +withdraw(account, amount) : void
+    # +get_balance(account)
 
 
 # ---------------------------------------------------------------------------
