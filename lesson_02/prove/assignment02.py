@@ -1,7 +1,7 @@
 """
 Course    : CSE 351
 Assignment: 02
-Student   : <your name here>
+Student   : Fiona Barnett
 
 Instructions:
     - review instructions in the course
@@ -16,7 +16,6 @@ from cse351 import Log
 
 # ---------------------------------------------------------------------------
 def main(): 
-
     print('\nATM Processing Program:')
     print('=======================\n')
 
@@ -24,65 +23,69 @@ def main():
 
     # Load ATM data files
     data_files = get_filenames('data_files')
-    # print(data_files)
     
     log = Log(show_terminal=True)
     log.start_timer()
 
     bank = Bank()
 
+    # create list to store threads
     threads = []
 
+    # use the ATMReader and ATMReaderThread classes
     for file_name in data_files:
-        atm_reader = ATM_Reader(file_name, bank)
-        threads.append(atm_reader)
-        atm_reader.start()
-    # TODO - Add a ATM_Reader for each data file
+        reader = ATMReader(file_name, bank) # handles file and logic
+        thread = ATMReaderThread(reader) # wraps reader in a thread
+        threads.append(thread)
+        thread.start()
 
     for thread in threads:
-        thread.join()
+        thread.join()  # wait for all threads to finish
 
     test_balances(bank)
-
     log.stop_timer('Total time')
 
-
 # ===========================================================================
-class ATM_Reader(threading.Thread):
+class ATMReader:
     def __init__(self, file_name, bank):
-        super().__init__()
         self.file_name = file_name
         self.bank = bank
 
-    def run(self):
+    def process(self):
         with open(self.file_name, 'r') as file:
             for line in file:
                 line = line.strip()
-                
-                # Skip comment lines starting with '#'
+
                 if line.startswith('#') or not line:
                     continue
-                
+
                 parts = line.split(",")
                 if len(parts) != 3:
                     continue
-                
+
                 try:
-                    account_num = int(parts[0])  # Make sure this is a valid integer
+                    account_num = int(parts[0])
                     transaction_type = parts[1]
-                    amount = parts[2].strip()  # Ensure amount is a string
-                    
-                    # Add account if it doesn't exist
+                    amount = parts[2].strip()
+
                     self.bank.addAccount(account_num)
 
-                    if transaction_type == "d":  # Deposit
+                    if transaction_type == "d":
                         self.bank.deposit(account_num, amount)
-                    elif transaction_type == "w":  # Withdrawal
+                    elif transaction_type == "w":
                         self.bank.withdraw(account_num, amount)
 
                 except ValueError as e:
                     print(f"Skipping invalid line: {line}, Error: {e}")
+        
 
+class ATMReaderThread(threading.Thread):
+    def __init__(self, reader: ATMReader):
+        super().__init__()  # Initialize the Thread
+        self.reader = reader
+
+    def run(self):
+        self.reader.process()
 
 
 class Account():
