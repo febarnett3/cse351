@@ -5,6 +5,9 @@ Student   : Fiona Barnett
 
 Instructions:
     - review instructions in the course
+
+4. Meets Requirements
+    Program uses both classes and threads and runs successfully, matching the balances.
 """
 
 # Don't import any other packages for this assignment
