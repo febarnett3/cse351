@@ -1,0 +1,3266 @@
+Current: active threads / max count: 1 / 1
+Request: /start
+Loading city data sandiego
+Loading city data philadelphia
+Loading city data san_antonio
+Loading city data san_jose
+Loading city data new_york
+Loading city data houston
+Loading city data dallas
+Loading city data chicago
+Loading city data los_angeles
+Loading city data phoenix
+Sending: {"status":"OK"}
+Current: active threads / max count: 1 / 1
+Request: /city/sandiego
+Sending: {"status": "OK", "city": "sandiego", "records": 10000}
+Current: active threads / max count: 1 / 1
+Request: /city/philadelphia
+Sending: {"status": "OK", "city": "philadelphia", "records": 10000}
+Current: active threads / max count: 1 / 1
+Request: /city/san_antonio
+Sending: {"status": "OK", "city": "san_antonio", "records": 10000}
+Current: active threads / max count: 1 / 1
+Request: /city/san_jose
+Sending: {"status": "OK", "city": "san_jose", "records": 10000}
+Current: active threads / max count: 1 / 1
+Request: /city/new_york
+Sending: {"status": "OK", "city": "new_york", "records": 10000}
+Current: active threads / max count: 1 / 1
+Request: /city/houston
+Sending: {"status": "OK", "city": "houston", "records": 10000}
+Current: active threads / max count: 1 / 1
+Request: /city/dallas
+Sending: {"status": "OK", "city": "dallas", "records": 10000}
+Current: active threads / max count: 1 / 1
+Request: /city/chicago
+Sending: {"status": "OK", "city": "chicago", "records": 10000}
+Current: active threads / max count: 1 / 1
+Request: /city/los_angeles
+Sending: {"status": "OK", "city": "los_angeles", "records": 10000}
+Current: active threads / max count: 1 / 1
+Request: /city/phoenix
+Sending: {"status": "OK", "city": "phoenix", "records": 10000}
+Current: active threads / max count: 1 / 1
+Request: /record/sandiego/0
+Current: active threads / max count: 2 / 2
+Request: /record/sandiego/1
+Current: active threads / max count: 3 / 3
+Request: /record/sandiego/2
+Current: active threads / max count: 4 / 4
+Request: /record/sandiego/4
+Current: active threads / max count: 5 / 5
+Request: /record/sandiego/3
+Current: active threads / max count: 6 / 6
+Request: /record/sandiego/5
+Current: active threads / max count: 7 / 7
+Request: /record/sandiego/6
+Current: active threads / max count: 8 / 8
+Request: /record/sandiego/7
+Current: active threads / max count: 9 / 9
+Request: /record/sandiego/8
+Current: active threads / max count: 10 / 10
+Request: /record/sandiego/9
+Current: active threads / max count: 11 / 11
+Request: /record/sandiego/10
+Current: active threads / max count: 12 / 12
+Request: /record/sandiego/11
+Current: active threads / max count: 13 / 13
+Request: /record/sandiego/12
+Current: active threads / max count: 14 / 14
+Request: /record/sandiego/13
+Current: active threads / max count: 15 / 15
+Request: /record/sandiego/14
+Current: active threads / max count: 16 / 16
+Request: /record/sandiego/15
+Current: active threads / max count: 17 / 17
+Request: /record/sandiego/16
+Current: active threads / max count: 18 / 18
+Request: /record/sandiego/17
+Current: active threads / max count: 19 / 19
+Request: /record/sandiego/19
+Current: active threads / max count: 20 / 20
+Request: /record/sandiego/20
+Current: active threads / max count: 21 / 21
+Request: /record/sandiego/18
+Current: active threads / max count: 22 / 22
+Request: /record/sandiego/21
+Current: active threads / max count: 23 / 23
+Request: /record/sandiego/23
+Current: active threads / max count: 24 / 24
+Request: /record/sandiego/22
+Current: active threads / max count: 25 / 25
+Request: /record/sandiego/25
+Current: active threads / max count: 26 / 26
+Request: /record/sandiego/26
+Current: active threads / max count: 27 / 27
+Request: /record/sandiego/27
+Current: active threads / max count: 28 / 28
+Request: /record/sandiego/28
+Current: active threads / max count: 29 / 29
+Request: /record/sandiego/29
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/24
+Sending: {"status": "OK", "city": "sandiego", "date": "01-14 21:12:46", "temp": 10}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-17 15:22:10", "temp": 8}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-02 10:25:50", "temp": 38}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-27 10:44:36", "temp": 24}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-22 06:07:42", "temp": 14}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-10 22:46:21", "temp": -5}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-25 12:59:32", "temp": 33}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-31 05:38:46", "temp": 14}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-18 04:13:11", "temp": 0}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-03 11:02:14", "temp": 35}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-11 09:30:59", "temp": 11}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-06 19:31:02", "temp": 18}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-18 09:31:04", "temp": -4}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-24 12:04:12", "temp": -6}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-21 08:54:56", "temp": 27}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-10 06:11:19", "temp": 18}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-24 16:53:49", "temp": -8}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-27 05:28:42", "temp": 31}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-21 06:29:46", "temp": 10}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-30 04:17:21", "temp": 34}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-21 22:16:37", "temp": 3}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-20 23:48:40", "temp": -2}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-03 22:15:10", "temp": 18}
+Current: active threads / max count: 15 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "01-10 22:05:31", "temp": 15}
+Current: active threads / max count: 15 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "04-05 17:00:26", "temp": 1}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-17 15:28:47", "temp": 12}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-11 10:27:07", "temp": 5}
+Request: /record/sandiego/31
+Sending: {"status": "OK", "city": "sandiego", "date": "03-24 17:40:55", "temp": 36}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-17 13:02:20", "temp": -3}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-19 18:44:35", "temp": 24}
+Request: /record/sandiego/30
+Current: active threads / max count: 3 / 30
+Request: /record/sandiego/33
+Current: active threads / max count: 4 / 30
+Request: /record/sandiego/32
+Current: active threads / max count: 5 / 30
+Request: /record/sandiego/36
+Current: active threads / max count: 6 / 30
+Request: /record/sandiego/40
+Current: active threads / max count: 7 / 30
+Request: /record/sandiego/34
+Current: active threads / max count: 8 / 30
+Request: /record/sandiego/37
+Current: active threads / max count: 9 / 30
+Request: /record/sandiego/43
+Current: active threads / max count: 10 / 30
+Request: /record/sandiego/35
+Current: active threads / max count: 11 / 30
+Request: /record/sandiego/38
+Current: active threads / max count: 12 / 30
+Request: /record/sandiego/39
+Current: active threads / max count: 13 / 30
+Request: /record/sandiego/41
+Current: active threads / max count: 14 / 30
+Request: /record/sandiego/42
+Current: active threads / max count: 15 / 30
+Request: /record/sandiego/44
+Current: active threads / max count: 16 / 30
+Request: /record/sandiego/45
+Current: active threads / max count: 17 / 30
+Request: /record/sandiego/47
+Current: active threads / max count: 18 / 30
+Request: /record/sandiego/48
+Current: active threads / max count: 19 / 30
+Request: /record/sandiego/49
+Current: active threads / max count: 20 / 30
+Request: /record/sandiego/50
+Current: active threads / max count: 21 / 30
+Request: /record/sandiego/51
+Current: active threads / max count: 22 / 30
+Request: /record/sandiego/52
+Current: active threads / max count: 23 / 30
+Request: /record/sandiego/53
+Current: active threads / max count: 24 / 30
+Request: /record/sandiego/54
+Current: active threads / max count: 25 / 30
+Request: /record/sandiego/55
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/56
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/57
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/58
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/59
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/46
+Sending: {"status": "OK", "city": "sandiego", "date": "03-27 12:32:26", "temp": 22}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-02 12:01:26", "temp": 23}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-13 04:04:49", "temp": 15}
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/62
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/61
+Sending: {"status": "OK", "city": "sandiego", "date": "02-16 22:09:29", "temp": 35}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-01 21:16:44", "temp": 0}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-08 16:18:21", "temp": 11}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-13 03:12:27", "temp": 22}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-09 18:08:06", "temp": 39}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-15 00:31:14", "temp": 0}
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/60
+Sending: {"status": "OK", "city": "sandiego", "date": "01-16 12:16:07", "temp": 5}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-29 01:43:48", "temp": -1}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-09 13:40:03", "temp": 1}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-25 07:28:23", "temp": 19}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-15 13:09:33", "temp": -6}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-22 19:26:10", "temp": 16}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-03 08:03:48", "temp": -7}
+Current: active threads / max count: 18 / 30
+Request: /record/sandiego/63
+Sending: {"status": "OK", "city": "sandiego", "date": "03-08 23:43:08", "temp": -3}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-08 08:37:15", "temp": 28}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-12 06:52:16", "temp": 0}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-05 17:02:56", "temp": 38}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-31 15:21:24", "temp": 30}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-20 19:53:53", "temp": 8}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-22 21:27:26", "temp": 36}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-15 10:46:29", "temp": 37}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-11 06:23:53", "temp": 38}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-10 10:57:10", "temp": 23}
+Current: active threads / max count: 19 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "05-18 10:27:50", "temp": -5}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-07 13:33:48", "temp": 28}
+Current: active threads / max count: 20 / 30
+Request: /record/sandiego/66
+Sending: {"status": "OK", "city": "sandiego", "date": "02-24 10:43:27", "temp": 14}
+Current: active threads / max count: 19 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "04-28 14:29:31", "temp": 5}
+Request: /record/sandiego/65
+Request: /record/sandiego/64
+Current: active threads / max count: 8 / 30
+Request: /record/sandiego/67
+Current: active threads / max count: 9 / 30
+Request: /record/sandiego/70
+Current: active threads / max count: 10 / 30
+Request: /record/sandiego/68
+Current: active threads / max count: 11 / 30
+Request: /record/sandiego/77
+Current: active threads / max count: 12 / 30
+Request: /record/sandiego/74
+Current: active threads / max count: 13 / 30
+Request: /record/sandiego/72
+Current: active threads / max count: 14 / 30
+Request: /record/sandiego/69
+Current: active threads / max count: 15 / 30
+Request: /record/sandiego/73
+Current: active threads / max count: 16 / 30
+Request: /record/sandiego/71
+Current: active threads / max count: 17 / 30
+Request: /record/sandiego/75
+Current: active threads / max count: 18 / 30
+Request: /record/sandiego/76
+Current: active threads / max count: 19 / 30
+Request: /record/sandiego/78
+Current: active threads / max count: 20 / 30
+Request: /record/sandiego/79
+Current: active threads / max count: 21 / 30
+Request: /record/sandiego/81
+Current: active threads / max count: 22 / 30
+Request: /record/sandiego/83
+Current: active threads / max count: 23 / 30
+Request: /record/sandiego/82
+Current: active threads / max count: 24 / 30
+Request: /record/sandiego/84
+Current: active threads / max count: 25 / 30
+Request: /record/sandiego/85
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/86
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/87
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/88
+Sending: {"status": "OK", "city": "sandiego", "date": "01-14 00:03:38", "temp": 11}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-17 09:36:42", "temp": -7}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-09 00:51:49", "temp": 4}
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/80
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/89
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/90
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/91
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/92
+Sending: {"status": "OK", "city": "sandiego", "date": "01-21 22:42:51", "temp": 39}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-19 05:01:43", "temp": -1}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-18 18:41:46", "temp": 3}
+Current: active threads / max count: 30 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "02-19 07:08:10", "temp": 24}
+Request: /record/sandiego/93
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/94
+Sending: {"status": "OK", "city": "sandiego", "date": "04-02 06:22:55", "temp": 34}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-05 06:01:26", "temp": 0}
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/95
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/96
+Sending: {"status": "OK", "city": "sandiego", "date": "02-16 17:56:15", "temp": 4}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-04 01:36:49", "temp": 24}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-22 14:40:30", "temp": -4}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-12 02:45:58", "temp": 1}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-10 15:53:51", "temp": -4}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-25 14:49:14", "temp": 4}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-20 12:36:21", "temp": 16}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-10 01:36:19", "temp": -1}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-25 18:08:07", "temp": 33}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-16 22:56:33", "temp": 31}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-18 05:35:58", "temp": 12}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-27 20:57:22", "temp": 8}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-13 12:56:19", "temp": -1}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-14 09:49:51", "temp": 37}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-16 13:17:06", "temp": -2}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-04 16:45:27", "temp": 9}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-20 06:32:37", "temp": -9}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-17 15:13:58", "temp": 13}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-11 00:06:50", "temp": 19}
+Current: active threads / max count: 19 / 30
+Request: /record/sandiego/97
+Current: active threads / max count: 20 / 30
+Request: /record/sandiego/98
+Sending: {"status": "OK", "city": "sandiego", "date": "02-26 12:56:40", "temp": 12}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-01 21:31:38", "temp": 0}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-04 02:50:20", "temp": -5}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-12 04:58:17", "temp": 4}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-30 18:39:43", "temp": 38}
+Current: active threads / max count: 10 / 30
+Request: /record/sandiego/100
+Current: active threads / max count: 8 / 30
+Request: /record/sandiego/105
+Current: active threads / max count: 9 / 30
+Request: /record/sandiego/101
+Current: active threads / max count: 10 / 30
+Request: /record/sandiego/103
+Current: active threads / max count: 11 / 30
+Request: /record/sandiego/104
+Current: active threads / max count: 12 / 30
+Request: /record/sandiego/102
+Current: active threads / max count: 13 / 30
+Request: /record/sandiego/99
+Current: active threads / max count: 14 / 30
+Request: /record/sandiego/107
+Current: active threads / max count: 15 / 30
+Request: /record/sandiego/109
+Current: active threads / max count: 16 / 30
+Request: /record/sandiego/110
+Current: active threads / max count: 17 / 30
+Request: /record/sandiego/106
+Current: active threads / max count: 18 / 30
+Request: /record/sandiego/112
+Current: active threads / max count: 19 / 30
+Request: /record/sandiego/108
+Current: active threads / max count: 20 / 30
+Request: /record/sandiego/111
+Current: active threads / max count: 21 / 30
+Request: /record/sandiego/113
+Sending: {"status": "OK", "city": "sandiego", "date": "04-18 07:14:12", "temp": 22}
+Current: active threads / max count: 21 / 30
+Request: /record/sandiego/114
+Current: active threads / max count: 22 / 30
+Request: /record/sandiego/115
+Current: active threads / max count: 23 / 30
+Request: /record/sandiego/116
+Current: active threads / max count: 24 / 30
+Current: active threads / max count: 25 / 30
+Request: /record/sandiego/118
+Request: /record/sandiego/117
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/119
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/120
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/123
+Current: active threads / max count: 29 / 30
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/122
+Request: /record/sandiego/121
+Sending: {"status": "OK", "city": "sandiego", "date": "01-20 22:24:35", "temp": 36}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-07 19:44:54", "temp": 25}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-31 01:43:20", "temp": 20}
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/124
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/126
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/125
+Sending: {"status": "OK", "city": "sandiego", "date": "05-02 06:51:50", "temp": 31}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-23 20:47:32", "temp": 18}
+Current: active threads / max count: 30 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "04-21 18:27:12", "temp": 4}
+Request: /record/sandiego/127
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/129
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/128
+Sending: {"status": "OK", "city": "sandiego", "date": "03-12 18:08:36", "temp": 18}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-01 23:40:15", "temp": 9}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-22 22:15:49", "temp": 14}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-09 14:44:32", "temp": 21}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-14 03:23:07", "temp": 26}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-31 12:39:25", "temp": -3}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-02 15:29:24", "temp": 7}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-28 13:51:54", "temp": 0}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-25 05:50:20", "temp": 36}
+Current: active threads / max count: 26 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "02-12 02:32:46", "temp": 25}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-11 18:43:15", "temp": 0}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-02 14:09:07", "temp": 39}
+Request: /record/sandiego/131
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/132
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/130
+Sending: {"status": "OK", "city": "sandiego", "date": "03-01 02:27:26", "temp": 26}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-21 04:59:04", "temp": 8}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-24 06:12:01", "temp": 18}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-22 05:53:23", "temp": -1}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-09 13:18:34", "temp": 15}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-21 17:32:07", "temp": 11}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-14 00:57:44", "temp": -6}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-09 01:16:30", "temp": 18}
+Current: active threads / max count: 22 / 30
+Request: /record/sandiego/133
+Current: active threads / max count: 21 / 30
+Request: /record/sandiego/134
+Sending: {"status": "OK", "city": "sandiego", "date": "04-14 00:08:57", "temp": 9}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-04 23:45:51", "temp": -9}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-01 12:11:06", "temp": 31}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-19 10:50:27", "temp": 35}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-08 15:04:14", "temp": 24}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-05 00:47:51", "temp": -1}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-12 15:51:29", "temp": 10}
+Current: active threads / max count: 9 / 30
+Request: /record/sandiego/136
+Current: active threads / max count: 10 / 30
+Request: /record/sandiego/137
+Current: active threads / max count: 11 / 30
+Request: /record/sandiego/135
+Current: active threads / max count: 12 / 30
+Current: active threads / max count: 13 / 30
+Request: /record/sandiego/138
+Request: /record/sandiego/140
+Current: active threads / max count: 14 / 30
+Request: /record/sandiego/141
+Current: active threads / max count: 15 / 30
+Request: /record/sandiego/143
+Current: active threads / max count: 16 / 30
+Request: /record/sandiego/142
+Current: active threads / max count: 17 / 30
+Request: /record/sandiego/139
+Current: active threads / max count: 18 / 30
+Request: /record/sandiego/147
+Sending: {"status": "OK", "city": "sandiego", "date": "02-03 01:45:41", "temp": -1}
+Current: active threads / max count: 18 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "03-23 09:34:00", "temp": 12}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-13 04:24:20", "temp": 38}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-13 00:48:29", "temp": 31}
+Request: /record/sandiego/149
+Current: active threads / max count: 17 / 30
+Request: /record/sandiego/150
+Sending: {"status": "OK", "city": "sandiego", "date": "02-16 19:15:23", "temp": 11}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-04 05:43:26", "temp": 27}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-20 23:13:48", "temp": -4}
+Current: active threads / max count: 14 / 30
+Request: /record/sandiego/144
+Current: active threads / max count: 15 / 30
+Request: /record/sandiego/145
+Current: active threads / max count: 16 / 30
+Request: /record/sandiego/151
+Current: active threads / max count: 17 / 30
+Request: /record/sandiego/152
+Current: active threads / max count: 18 / 30
+Request: /record/sandiego/146
+Current: active threads / max count: 19 / 30
+Request: /record/sandiego/148
+Sending: {"status": "OK", "city": "sandiego", "date": "02-10 23:34:59", "temp": 10}
+Current: active threads / max count: 20 / 30
+Request: /record/sandiego/153
+Current: active threads / max count: 20 / 30
+Request: /record/sandiego/154
+Current: active threads / max count: 21 / 30
+Request: /record/sandiego/156
+Current: active threads / max count: 22 / 30
+Request: /record/sandiego/155
+Current: active threads / max count: 23 / 30
+Request: /record/sandiego/157
+Current: active threads / max count: 24 / 30
+Request: /record/sandiego/158
+Current: active threads / max count: 25 / 30
+Request: /record/sandiego/159
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/160
+Sending: {"status": "OK", "city": "sandiego", "date": "03-08 15:48:53", "temp": 24}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-17 20:32:54", "temp": 29}
+Current: active threads / max count: 25 / 30
+Request: /record/sandiego/162
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/161
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/164
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/163
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/165
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/166
+Sending: {"status": "OK", "city": "sandiego", "date": "03-27 08:46:15", "temp": 26}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-06 15:16:54", "temp": 7}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-09 08:36:06", "temp": 6}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-28 17:22:16", "temp": 13}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-12 08:11:35", "temp": 29}
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/167
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/168
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/169
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/171
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/170
+Sending: {"status": "OK", "city": "sandiego", "date": "04-28 19:46:01", "temp": 2}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-07 02:39:26", "temp": 39}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-13 00:17:10", "temp": 36}
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/172
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/173
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/174
+Sending: {"status": "OK", "city": "sandiego", "date": "02-21 16:40:23", "temp": 32}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-20 20:32:14", "temp": -7}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-14 05:40:45", "temp": 0}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-21 08:08:37", "temp": -2}
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/177
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/176
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/175
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/178
+Sending: {"status": "OK", "city": "sandiego", "date": "04-27 22:50:06", "temp": 36}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-11 13:09:28", "temp": 16}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-08 09:19:39", "temp": 14}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-04 21:26:56", "temp": 28}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-29 06:59:32", "temp": 25}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-06 02:07:14", "temp": -6}
+Current: active threads / max count: 25 / 30
+Request: /record/sandiego/179
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/180
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/182
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/181
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/183
+Sending: {"status": "OK", "city": "sandiego", "date": "05-10 23:37:52", "temp": -6}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-31 03:55:21", "temp": 33}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-25 10:30:39", "temp": -8}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-26 12:59:44", "temp": -3}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-02 15:29:24", "temp": 24}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-16 15:48:49", "temp": -4}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-07 04:08:30", "temp": -7}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-24 06:40:32", "temp": -1}
+Current: active threads / max count: 30 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "02-18 15:26:18", "temp": 37}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-14 02:29:54", "temp": 25}
+Request: /record/sandiego/184
+Current: active threads / max count: 21 / 30
+Request: /record/sandiego/186
+Current: active threads / max count: 22 / 30
+Request: /record/sandiego/189
+Current: active threads / max count: 23 / 30
+Request: /record/sandiego/185
+Current: active threads / max count: 24 / 30
+Request: /record/sandiego/192
+Sending: {"status": "OK", "city": "sandiego", "date": "05-17 19:59:13", "temp": 0}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-30 18:22:14", "temp": 38}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-17 09:39:43", "temp": -3}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-19 11:17:53", "temp": 1}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-18 09:57:04", "temp": 31}
+Current: active threads / max count: 25 / 30
+Request: /record/sandiego/191
+Current: active threads / max count: 21 / 30
+Request: /record/sandiego/187
+Current: active threads / max count: 22 / 30
+Request: /record/sandiego/193
+Current: active threads / max count: 23 / 30
+Request: /record/sandiego/188
+Current: active threads / max count: 24 / 30
+Request: /record/sandiego/190
+Current: active threads / max count: 25 / 30
+Request: /record/sandiego/196
+Sending: {"status": "OK", "city": "sandiego", "date": "04-05 16:32:37", "temp": 7}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-06 06:00:34", "temp": 37}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-03 21:56:30", "temp": 19}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-18 10:47:15", "temp": 0}
+Current: active threads / max count: 26 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "02-24 13:35:13", "temp": 39}
+Request: /record/sandiego/197
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/194
+Current: active threads / max count: 25 / 30
+Current: active threads / max count: 25 / 30
+Request: /record/sandiego/198
+Request: /record/sandiego/199
+Current: active threads / max count: 25 / 30
+Request: /record/sandiego/195
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/200
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/201
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/202
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/203
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/204
+Sending: {"status": "OK", "city": "sandiego", "date": "04-07 06:00:31", "temp": 27}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-02 13:49:16", "temp": 38}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-01 15:00:14", "temp": 11}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-06 04:35:50", "temp": -7}
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/206
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/208
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/207
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/205
+Sending: {"status": "OK", "city": "sandiego", "date": "02-12 04:54:38", "temp": 16}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-29 16:25:51", "temp": 9}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-25 05:21:13", "temp": 27}
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/209
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/210
+Sending: {"status": "OK", "city": "sandiego", "date": "05-18 10:17:48", "temp": 26}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-16 20:10:39", "temp": 32}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-20 06:04:24", "temp": 1}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-16 04:40:42", "temp": -3}
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/213
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/212
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/215
+Sending: {"status": "OK", "city": "sandiego", "date": "02-20 18:22:22", "temp": -8}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-27 12:44:47", "temp": 29}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-15 18:33:16", "temp": -7}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-20 08:10:49", "temp": 10}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-08 16:06:44", "temp": 13}
+Current: active threads / max count: 29 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "04-06 13:52:49", "temp": 39}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-10 18:03:06", "temp": 10}
+Request: /record/sandiego/211
+Sending: {"status": "OK", "city": "sandiego", "date": "02-07 01:47:14", "temp": -8}
+Current: active threads / max count: 22 / 30
+Request: /record/sandiego/216
+Current: active threads / max count: 23 / 30
+Request: /record/sandiego/221
+Current: active threads / max count: 24 / 30
+Request: /record/sandiego/218
+Current: active threads / max count: 25 / 30
+Request: /record/sandiego/220
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/222
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/219
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/217
+Current: active threads / max count: 29 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "05-05 17:08:33", "temp": 31}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-20 05:40:40", "temp": -3}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-22 10:00:25", "temp": 0}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-21 15:45:47", "temp": 9}
+Current: active threads / max count: 30 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "03-15 05:46:20", "temp": 0}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-13 17:56:37", "temp": 20}
+Request: /record/sandiego/214
+Request: /record/sandiego/223
+Current: active threads / max count: 25 / 30
+Request: /record/sandiego/224
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/225
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/227
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/226
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/228
+Sending: {"status": "OK", "city": "sandiego", "date": "03-31 17:40:46", "temp": -8}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-08 09:30:56", "temp": 22}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-23 17:07:59", "temp": 13}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-14 01:56:04", "temp": -1}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-09 06:47:28", "temp": 12}
+Current: active threads / max count: 25 / 30
+Request: /record/sandiego/230
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/231
+Current: active threads / max count: 27 / 30
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/229
+Request: /record/sandiego/233
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/232
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/234
+Sending: {"status": "OK", "city": "sandiego", "date": "03-17 10:25:51", "temp": 29}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-02 20:42:21", "temp": 15}
+Current: active threads / max count: 30 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "02-04 12:24:32", "temp": 4}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-19 01:34:20", "temp": 20}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-06 09:06:59", "temp": 20}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-08 02:46:15", "temp": 10}
+Request: /record/sandiego/235
+Sending: {"status": "OK", "city": "sandiego", "date": "04-29 11:04:38", "temp": 32}
+Current: active threads / max count: 26 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "02-14 04:20:41", "temp": 25}
+Request: /record/sandiego/236
+Current: active threads / max count: 25 / 30
+Request: /record/sandiego/237
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/238
+Current: active threads / max count: 27 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "04-16 14:19:43", "temp": 27}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-23 04:59:31", "temp": 7}
+Request: /record/sandiego/241
+Current: active threads / max count: 28 / 30
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/240
+Request: /record/sandiego/239
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/242
+Sending: {"status": "OK", "city": "sandiego", "date": "04-24 22:53:12", "temp": 9}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-18 13:29:09", "temp": 28}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-22 00:09:35", "temp": 22}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-03 03:41:14", "temp": -1}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-07 07:34:46", "temp": 24}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-23 17:07:19", "temp": 19}
+Current: active threads / max count: 29 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "04-10 14:06:40", "temp": 24}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-29 22:42:00", "temp": 4}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-09 15:01:44", "temp": -3}
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/243
+Request: /record/sandiego/244
+Sending: {"status": "OK", "city": "sandiego", "date": "03-16 16:39:51", "temp": 31}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-01 22:51:36", "temp": 34}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-23 18:54:51", "temp": -8}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-28 16:06:38", "temp": -2}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-29 17:43:51", "temp": 12}
+Current: active threads / max count: 18 / 30
+Request: /record/sandiego/246
+Current: active threads / max count: 18 / 30
+Request: /record/sandiego/248
+Current: active threads / max count: 19 / 30
+Request: /record/sandiego/247
+Current: active threads / max count: 20 / 30
+Request: /record/sandiego/245
+Current: active threads / max count: 21 / 30
+Request: /record/sandiego/251
+Current: active threads / max count: 22 / 30
+Request: /record/sandiego/252
+Current: active threads / max count: 23 / 30
+Request: /record/sandiego/253
+Sending: {"status": "OK", "city": "sandiego", "date": "01-01 06:55:09", "temp": 11}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-24 17:41:21", "temp": 15}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-30 22:38:39", "temp": 0}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-20 19:30:35", "temp": -2}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-13 02:08:19", "temp": 17}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-06 09:31:34", "temp": 24}
+Current: active threads / max count: 24 / 30
+Request: /record/sandiego/249
+Current: active threads / max count: 22 / 30
+Request: /record/sandiego/255
+Current: active threads / max count: 20 / 30
+Request: /record/sandiego/256
+Current: active threads / max count: 21 / 30
+Request: /record/sandiego/257
+Current: active threads / max count: 22 / 30
+Request: /record/sandiego/258
+Current: active threads / max count: 23 / 30
+Request: /record/sandiego/262
+Current: active threads / max count: 24 / 30
+Current: active threads / max count: 25 / 30
+Request: /record/sandiego/259
+Request: /record/sandiego/260
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/261
+Current: active threads / max count: 27 / 30
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/250
+Request: /record/sandiego/254
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/264
+Sending: {"status": "OK", "city": "sandiego", "date": "02-04 17:25:31", "temp": 26}
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/263
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/265
+Sending: {"status": "OK", "city": "sandiego", "date": "02-03 00:16:54", "temp": 5}
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/266
+Sending: {"status": "OK", "city": "sandiego", "date": "04-26 00:37:29", "temp": -3}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-18 14:37:13", "temp": 4}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-25 06:22:18", "temp": -1}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-16 23:54:44", "temp": 10}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-12 02:44:14", "temp": 35}
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/267
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/268
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/269
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/271
+Sending: {"status": "OK", "city": "sandiego", "date": "03-04 02:08:51", "temp": 21}
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/272
+Sending: {"status": "OK", "city": "sandiego", "date": "04-18 19:16:21", "temp": 3}
+Current: active threads / max count: 30 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "01-07 15:38:29", "temp": 25}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-05 09:50:22", "temp": -6}
+Request: /record/sandiego/270
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/273
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/274
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/275
+Sending: {"status": "OK", "city": "sandiego", "date": "01-30 23:35:52", "temp": 1}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-26 09:36:49", "temp": 3}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-14 11:49:55", "temp": 15}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-29 09:46:16", "temp": 32}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-09 06:38:25", "temp": 28}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-03 08:38:49", "temp": 26}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-11 13:20:41", "temp": 8}
+Current: active threads / max count: 24 / 30
+Request: /record/sandiego/276
+Current: active threads / max count: 25 / 30
+Request: /record/sandiego/277
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/279
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/278
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/280
+Current: active threads / max count: 29 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "04-14 15:14:28", "temp": 9}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-28 19:19:45", "temp": 28}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-04 04:28:09", "temp": 6}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-05 10:27:26", "temp": 34}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-01 04:17:10", "temp": 26}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-03 12:15:31", "temp": 35}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-09 14:24:59", "temp": 35}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-09 13:45:32", "temp": 18}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-13 09:39:10", "temp": 38}
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/281
+Request: /record/sandiego/282
+Sending: {"status": "OK", "city": "sandiego", "date": "04-12 03:54:53", "temp": 23}
+Current: active threads / max count: 21 / 30
+Request: /record/sandiego/285
+Current: active threads / max count: 22 / 30
+Request: /record/sandiego/284
+Current: active threads / max count: 23 / 30
+Request: /record/sandiego/286
+Current: active threads / max count: 24 / 30
+Request: /record/sandiego/283
+Sending: {"status": "OK", "city": "sandiego", "date": "01-08 12:55:01", "temp": 37}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-30 01:26:02", "temp": 6}
+Current: active threads / max count: 25 / 30
+Request: /record/sandiego/290
+Current: active threads / max count: 24 / 30
+Request: /record/sandiego/288
+Current: active threads / max count: 25 / 30
+Request: /record/sandiego/289
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/287
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/291
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/292
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/293
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/294
+Sending: {"status": "OK", "city": "sandiego", "date": "01-31 03:04:01", "temp": 21}
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/295
+Sending: {"status": "OK", "city": "sandiego", "date": "04-22 19:03:56", "temp": 39}
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/296
+Sending: {"status": "OK", "city": "sandiego", "date": "03-15 12:29:56", "temp": 7}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-20 20:30:24", "temp": 33}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-11 10:07:44", "temp": 34}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-29 05:15:41", "temp": 35}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-24 16:01:06", "temp": 35}
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/298
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/300
+Sending: {"status": "OK", "city": "sandiego", "date": "01-06 00:11:15", "temp": 12}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-07 02:55:57", "temp": 27}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-08 08:09:33", "temp": 39}
+Current: active threads / max count: 28 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "02-02 08:25:58", "temp": 36}
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/301
+Request: /record/sandiego/297
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/302
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/303
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/304
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/299
+Sending: {"status": "OK", "city": "sandiego", "date": "01-21 12:21:21", "temp": -4}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-16 21:31:42", "temp": 38}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-20 01:23:25", "temp": 18}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-26 01:46:14", "temp": 35}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-09 22:38:20", "temp": 9}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-08 17:06:53", "temp": -6}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-20 16:24:10", "temp": 0}
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/305
+Sending: {"status": "OK", "city": "sandiego", "date": "05-05 12:57:20", "temp": 17}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-21 08:07:54", "temp": 21}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-16 07:51:13", "temp": 13}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-25 17:27:57", "temp": 36}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-25 11:55:03", "temp": 7}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-05 00:25:55", "temp": -1}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-25 00:01:33", "temp": 21}
+Current: active threads / max count: 24 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "03-24 11:01:41", "temp": -6}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-23 17:18:10", "temp": 11}
+Current: active threads / max count: 18 / 30
+Request: /record/sandiego/306
+Request: /record/sandiego/308
+Sending: {"status": "OK", "city": "sandiego", "date": "05-06 19:32:38", "temp": -3}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-08 05:40:12", "temp": 0}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-27 15:27:31", "temp": 1}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-09 09:46:53", "temp": 4}
+Current: active threads / max count: 13 / 30
+Request: /record/sandiego/307
+Sending: {"status": "OK", "city": "sandiego", "date": "02-17 20:56:02", "temp": 39}
+Current: active threads / max count: 13 / 30
+Request: /record/sandiego/311
+Current: active threads / max count: 14 / 30
+Request: /record/sandiego/310
+Current: active threads / max count: 15 / 30
+Request: /record/sandiego/312
+Current: active threads / max count: 16 / 30
+Request: /record/sandiego/313
+Current: active threads / max count: 17 / 30
+Request: /record/sandiego/316
+Current: active threads / max count: 18 / 30
+Request: /record/sandiego/315
+Sending: {"status": "OK", "city": "sandiego", "date": "02-27 02:04:27", "temp": 24}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-16 16:08:37", "temp": 14}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-25 17:25:53", "temp": 37}
+Current: active threads / max count: 19 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "01-06 16:01:51", "temp": 3}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-20 12:56:32", "temp": 0}
+Request: /record/sandiego/309
+Current: active threads / max count: 15 / 30
+Request: /record/sandiego/320
+Current: active threads / max count: 16 / 30
+Request: /record/sandiego/321
+Current: active threads / max count: 17 / 30
+Current: active threads / max count: 18 / 30
+Request: /record/sandiego/318
+Request: /record/sandiego/319
+Sending: {"status": "OK", "city": "sandiego", "date": "03-24 08:48:35", "temp": 12}
+Current: active threads / max count: 19 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "03-26 15:39:17", "temp": 39}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-27 07:46:42", "temp": 38}
+Request: /record/sandiego/317
+Current: active threads / max count: 17 / 30
+Request: /record/sandiego/322
+Current: active threads / max count: 18 / 30
+Request: /record/sandiego/323
+Current: active threads / max count: 19 / 30
+Request: /record/sandiego/314
+Current: active threads / max count: 20 / 30
+Request: /record/sandiego/324
+Current: active threads / max count: 21 / 30
+Request: /record/sandiego/325
+Current: active threads / max count: 22 / 30
+Request: /record/sandiego/326
+Current: active threads / max count: 23 / 30
+Request: /record/sandiego/329
+Current: active threads / max count: 24 / 30
+Request: /record/sandiego/327
+Current: active threads / max count: 25 / 30
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/330
+Request: /record/sandiego/328
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/331
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/332
+Current: active threads / max count: 29 / 30
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/333
+Sending: {"status": "OK", "city": "sandiego", "date": "01-26 11:59:07", "temp": 16}
+Request: /record/sandiego/334
+Sending: {"status": "OK", "city": "sandiego", "date": "01-15 16:03:56", "temp": -1}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-16 20:42:12", "temp": 34}
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/335
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/337
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/336
+Sending: {"status": "OK", "city": "sandiego", "date": "01-12 21:07:05", "temp": 22}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-31 08:29:08", "temp": -1}
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/339
+Sending: {"status": "OK", "city": "sandiego", "date": "02-24 08:58:41", "temp": 24}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-21 00:50:53", "temp": -1}
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/338
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/340
+Sending: {"status": "OK", "city": "sandiego", "date": "01-16 20:50:50", "temp": 2}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-04 14:21:15", "temp": 36}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-05 12:39:55", "temp": 33}
+Current: active threads / max count: 30 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "02-29 02:53:20", "temp": 4}
+Request: /record/sandiego/341
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/342
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/343
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/344
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/345
+Sending: {"status": "OK", "city": "sandiego", "date": "03-11 15:25:16", "temp": 15}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-30 12:16:35", "temp": 22}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-09 20:12:04", "temp": -3}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-07 20:12:57", "temp": -2}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-15 17:03:50", "temp": 21}
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/347
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/348
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/346
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/349
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/350
+Sending: {"status": "OK", "city": "sandiego", "date": "04-20 12:05:42", "temp": -6}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-29 21:25:49", "temp": 12}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-15 04:40:01", "temp": 32}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-18 18:01:56", "temp": 0}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-17 04:52:11", "temp": -3}
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/351
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/352
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/353
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/355
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/354
+Sending: {"status": "OK", "city": "sandiego", "date": "03-16 23:46:43", "temp": -3}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-30 01:47:49", "temp": 7}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-18 23:35:16", "temp": 9}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-01 00:40:27", "temp": 2}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-25 22:58:56", "temp": 1}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-08 08:37:40", "temp": 26}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-27 04:26:14", "temp": 36}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-02 19:15:16", "temp": 20}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-27 02:34:39", "temp": -8}
+Current: active threads / max count: 22 / 30
+Request: /record/sandiego/356
+Current: active threads / max count: 23 / 30
+Request: /record/sandiego/360
+Current: active threads / max count: 24 / 30
+Request: /record/sandiego/358
+Current: active threads / max count: 25 / 30
+Request: /record/sandiego/362
+Current: active threads / max count: 26 / 30
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/359
+Request: /record/sandiego/361
+Current: active threads / max count: 28 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "01-30 15:57:35", "temp": 0}
+Request: /record/sandiego/364
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/363
+Sending: {"status": "OK", "city": "sandiego", "date": "05-08 18:51:43", "temp": 21}
+Current: active threads / max count: 29 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "03-15 02:23:11", "temp": 2}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-03 01:59:08", "temp": 16}
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/365
+Request: /record/sandiego/357
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/366
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/367
+Sending: {"status": "OK", "city": "sandiego", "date": "03-26 16:30:59", "temp": 21}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-14 10:51:49", "temp": 25}
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/369
+Sending: {"status": "OK", "city": "sandiego", "date": "04-08 19:20:43", "temp": 35}
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/370
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/368
+Sending: {"status": "OK", "city": "sandiego", "date": "01-22 05:14:48", "temp": 16}
+Current: active threads / max count: 30 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "02-16 17:03:29", "temp": 17}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-22 12:37:58", "temp": 24}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-14 14:55:34", "temp": 23}
+Request: /record/sandiego/371
+Sending: {"status": "OK", "city": "sandiego", "date": "03-17 10:35:32", "temp": 14}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-04 22:55:43", "temp": 21}
+Current: active threads / max count: 25 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "04-29 11:45:54", "temp": 21}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-29 19:19:46", "temp": 22}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-10 13:12:36", "temp": 9}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-15 23:59:14", "temp": 18}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-14 06:38:19", "temp": -4}
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/372
+Sending: {"status": "OK", "city": "sandiego", "date": "03-23 08:46:15", "temp": 9}
+Request: /record/sandiego/373
+Current: active threads / max count: 23 / 30
+Request: /record/sandiego/374
+Sending: {"status": "OK", "city": "sandiego", "date": "01-06 14:14:30", "temp": -3}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-10 05:42:12", "temp": 28}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-12 05:28:31", "temp": 4}
+Current: active threads / max count: 19 / 30
+Request: /record/sandiego/375
+Sending: {"status": "OK", "city": "sandiego", "date": "03-24 05:15:42", "temp": 29}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-15 08:51:35", "temp": 18}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-21 22:29:01", "temp": 20}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-19 01:01:17", "temp": 6}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-05 18:49:11", "temp": -6}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-17 17:09:55", "temp": 1}
+Current: active threads / max count: 20 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "04-11 07:50:17", "temp": 3}
+Request: /record/sandiego/379
+Current: active threads / max count: 19 / 30
+Request: /record/sandiego/380
+Sending: {"status": "OK", "city": "sandiego", "date": "04-20 06:01:21", "temp": -2}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-28 22:45:40", "temp": 1}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-22 09:56:26", "temp": 37}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-14 23:45:27", "temp": 13}
+Current: active threads / max count: 11 / 30
+Request: /record/sandiego/377
+Current: active threads / max count: 12 / 30
+Request: /record/sandiego/378
+Current: active threads / max count: 13 / 30
+Request: /record/sandiego/381
+Sending: {"status": "OK", "city": "sandiego", "date": "05-08 20:37:03", "temp": -1}
+Current: active threads / max count: 13 / 30
+Request: /record/sandiego/382
+Current: active threads / max count: 14 / 30
+Request: /record/sandiego/384
+Current: active threads / max count: 15 / 30
+Request: /record/sandiego/376
+Current: active threads / max count: 16 / 30
+Request: /record/sandiego/383
+Sending: {"status": "OK", "city": "sandiego", "date": "05-02 10:28:44", "temp": 39}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-25 15:09:28", "temp": 1}
+Current: active threads / max count: 15 / 30
+Request: /record/sandiego/386
+Sending: {"status": "OK", "city": "sandiego", "date": "02-13 23:41:15", "temp": 1}
+Current: active threads / max count: 15 / 30
+Request: /record/sandiego/388
+Current: active threads / max count: 16 / 30
+Request: /record/sandiego/387
+Current: active threads / max count: 17 / 30
+Request: /record/sandiego/389
+Current: active threads / max count: 18 / 30
+Request: /record/sandiego/385
+Current: active threads / max count: 19 / 30
+Request: /record/sandiego/391
+Current: active threads / max count: 20 / 30
+Current: active threads / max count: 21 / 30
+Request: /record/sandiego/390
+Request: /record/sandiego/392
+Current: active threads / max count: 22 / 30
+Request: /record/sandiego/393
+Current: active threads / max count: 23 / 30
+Request: /record/sandiego/395
+Current: active threads / max count: 24 / 30
+Request: /record/sandiego/394
+Current: active threads / max count: 25 / 30
+Request: /record/sandiego/396
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/397
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/398
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/399
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/400
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/401
+Sending: {"status": "OK", "city": "sandiego", "date": "02-04 04:23:51", "temp": 10}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-27 15:30:39", "temp": 36}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-29 03:16:57", "temp": 3}
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/402
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/403
+Sending: {"status": "OK", "city": "sandiego", "date": "04-02 05:03:26", "temp": 10}
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/404
+Sending: {"status": "OK", "city": "sandiego", "date": "02-27 15:04:52", "temp": 12}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-12 15:10:46", "temp": 28}
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/405
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/406
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/407
+Sending: {"status": "OK", "city": "sandiego", "date": "03-26 02:50:12", "temp": 39}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-07 15:08:52", "temp": 28}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-29 14:00:21", "temp": 4}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-06 05:35:24", "temp": 18}
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/408
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/409
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/410
+Sending: {"status": "OK", "city": "sandiego", "date": "01-26 00:12:20", "temp": 39}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-18 13:42:47", "temp": -3}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-16 17:34:31", "temp": 35}
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/412
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/413
+Sending: {"status": "OK", "city": "sandiego", "date": "03-11 15:43:24", "temp": 27}
+Current: active threads / max count: 29 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "04-19 02:07:57", "temp": -5}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-21 15:40:41", "temp": 35}
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/411
+Request: /record/sandiego/414
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/416
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/415
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/417
+Sending: {"status": "OK", "city": "sandiego", "date": "02-02 15:00:21", "temp": 15}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-16 00:24:17", "temp": 7}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-06 08:06:42", "temp": 0}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-05 19:08:10", "temp": 21}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-16 10:15:05", "temp": 8}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-01 09:18:23", "temp": -6}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-17 03:03:55", "temp": 6}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-24 03:20:55", "temp": 0}
+Current: active threads / max count: 23 / 30
+Request: /record/sandiego/418
+Current: active threads / max count: 24 / 30
+Request: /record/sandiego/419
+Current: active threads / max count: 25 / 30
+Request: /record/sandiego/422
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/423
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/424
+Current: active threads / max count: 28 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "04-04 04:17:39", "temp": 37}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-21 23:32:12", "temp": 8}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-14 03:00:37", "temp": -8}
+Current: active threads / max count: 29 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "02-08 23:04:16", "temp": 25}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-17 22:16:45", "temp": 33}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-10 20:18:06", "temp": 34}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-10 13:07:37", "temp": 16}
+Current: active threads / max count: 30 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "04-14 03:47:27", "temp": 17}
+Request: /record/sandiego/420
+Request: /record/sandiego/421
+Request: /record/sandiego/425
+Current: active threads / max count: 23 / 30
+Request: /record/sandiego/426
+Current: active threads / max count: 24 / 30
+Request: /record/sandiego/427
+Current: active threads / max count: 25 / 30
+Request: /record/sandiego/428
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/431
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/432
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/429
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/433
+Sending: {"status": "OK", "city": "sandiego", "date": "04-11 20:07:58", "temp": -4}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-26 03:43:41", "temp": 21}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-12 17:28:28", "temp": -3}
+Current: active threads / max count: 29 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "02-10 07:24:57", "temp": 38}
+Request: /record/sandiego/430
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/434
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/435
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/436
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/437
+Sending: {"status": "OK", "city": "sandiego", "date": "05-16 21:16:38", "temp": 25}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-29 01:01:58", "temp": 8}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-17 18:22:12", "temp": 36}
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/439
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/440
+Sending: {"status": "OK", "city": "sandiego", "date": "04-03 00:30:40", "temp": -8}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-16 11:18:45", "temp": 3}
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/438
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/441
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/442
+Sending: {"status": "OK", "city": "sandiego", "date": "01-20 19:25:53", "temp": 13}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-16 11:09:36", "temp": 4}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-18 16:34:39", "temp": 5}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-22 18:31:07", "temp": 11}
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/444
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/446
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/445
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/443
+Sending: {"status": "OK", "city": "sandiego", "date": "02-20 09:03:30", "temp": 1}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-08 01:24:14", "temp": -7}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-05 08:29:22", "temp": 7}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-04 17:07:09", "temp": -2}
+Current: active threads / max count: 30 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "02-17 08:14:56", "temp": 20}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-04 03:32:50", "temp": 32}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-06 22:41:11", "temp": 28}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-17 01:00:50", "temp": 16}
+Request: /record/sandiego/447
+Sending: {"status": "OK", "city": "sandiego", "date": "01-22 19:28:54", "temp": 1}
+Current: active threads / max count: 23 / 30
+Request: /record/sandiego/449
+Current: active threads / max count: 24 / 30
+Request: /record/sandiego/451
+Current: active threads / max count: 25 / 30
+Request: /record/sandiego/450
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/448
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/454
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/453
+Current: active threads / max count: 29 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "05-16 05:13:34", "temp": 9}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-04 04:32:51", "temp": -4}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-16 11:12:53", "temp": 24}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-09 02:29:46", "temp": 7}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-15 14:48:59", "temp": 21}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-22 00:34:43", "temp": -2}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-01 14:57:08", "temp": 25}
+Request: /record/sandiego/452
+Current: active threads / max count: 23 / 30
+Request: /record/sandiego/460
+Current: active threads / max count: 24 / 30
+Request: /record/sandiego/459
+Current: active threads / max count: 25 / 30
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/461
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/456
+Request: /record/sandiego/458
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/457
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/462
+Sending: {"status": "OK", "city": "sandiego", "date": "01-28 04:44:13", "temp": -6}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-21 20:06:47", "temp": -7}
+Current: active threads / max count: 30 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "03-01 05:26:00", "temp": 23}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-10 06:49:52", "temp": 20}
+Request: /record/sandiego/455
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/463
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/465
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/464
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/466
+Sending: {"status": "OK", "city": "sandiego", "date": "05-16 12:54:50", "temp": -4}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-24 11:07:43", "temp": 17}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-13 16:04:39", "temp": 9}
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/467
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/468
+Sending: {"status": "OK", "city": "sandiego", "date": "01-14 00:38:18", "temp": 31}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-23 18:58:42", "temp": -9}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-25 00:50:44", "temp": 39}
+Current: active threads / max count: 30 / 30
+Request: /record/sandiego/469
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/470
+Current: active threads / max count: 29 / 30
+Request: /record/sandiego/471
+Sending: {"status": "OK", "city": "sandiego", "date": "01-07 09:58:38", "temp": 16}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-24 02:41:48", "temp": 28}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-07 02:55:14", "temp": -4}
+Current: active threads / max count: 30 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "04-06 10:52:12", "temp": 12}
+Request: /record/sandiego/472
+Sending: {"status": "OK", "city": "sandiego", "date": "04-01 04:56:01", "temp": 20}
+Current: active threads / max count: 27 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "01-07 20:28:42", "temp": 18}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-25 07:43:58", "temp": 10}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-09 15:35:35", "temp": 21}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-30 22:16:17", "temp": 31}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-12 09:42:59", "temp": -4}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-17 22:00:40", "temp": 17}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-14 13:43:17", "temp": 24}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-10 22:51:04", "temp": 21}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-02 15:12:10", "temp": 9}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-25 03:07:15", "temp": 12}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-01 16:49:49", "temp": 32}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-15 08:56:15", "temp": 33}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-02 16:03:18", "temp": -5}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-11 05:07:44", "temp": -9}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-10 05:29:04", "temp": 12}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-21 23:13:18", "temp": 1}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-18 15:53:44", "temp": 28}
+Request: /record/sandiego/474
+Current: active threads / max count: 27 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "02-04 23:12:10", "temp": 34}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-29 19:48:17", "temp": 23}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-15 11:14:31", "temp": 18}
+Request: /record/sandiego/473
+Current: active threads / max count: 28 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "03-13 15:48:12", "temp": 2}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-19 16:08:33", "temp": 19}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-19 07:23:29", "temp": 9}
+Current: active threads / max count: 28 / 30
+Request: /record/sandiego/475
+Request: /record/sandiego/476
+Sending: {"status": "OK", "city": "sandiego", "date": "02-27 03:16:36", "temp": 7}
+Current: active threads / max count: 6 / 30
+Request: /record/sandiego/477
+Sending: {"status": "OK", "city": "sandiego", "date": "03-20 01:17:10", "temp": -4}
+Current: active threads / max count: 6 / 30
+Request: /record/sandiego/482
+Current: active threads / max count: 7 / 30
+Request: /record/sandiego/480
+Current: active threads / max count: 8 / 30
+Request: /record/sandiego/479
+Current: active threads / max count: 9 / 30
+Request: /record/sandiego/478
+Current: active threads / max count: 10 / 30
+Request: /record/sandiego/485
+Current: active threads / max count: 11 / 30
+Request: /record/sandiego/486
+Current: active threads / max count: 12 / 30
+Request: /record/sandiego/487
+Current: active threads / max count: 13 / 30
+Request: /record/sandiego/483
+Current: active threads / max count: 14 / 30
+Request: /record/sandiego/484
+Current: active threads / max count: 15 / 30
+Request: /record/sandiego/490
+Current: active threads / max count: 16 / 30
+Request: /record/sandiego/491
+Current: active threads / max count: 17 / 30
+Request: /record/sandiego/488
+Current: active threads / max count: 18 / 30
+Request: /record/sandiego/481
+Current: active threads / max count: 19 / 30
+Request: /record/sandiego/489
+Current: active threads / max count: 20 / 30
+Request: /record/sandiego/492
+Current: active threads / max count: 21 / 30
+Request: /record/sandiego/493
+Current: active threads / max count: 22 / 30
+Current: active threads / max count: 23 / 30
+Request: /record/sandiego/494
+Request: /record/sandiego/496
+Current: active threads / max count: 24 / 30
+Request: /record/sandiego/495
+Current: active threads / max count: 25 / 30
+Request: /record/sandiego/497
+Current: active threads / max count: 26 / 30
+Request: /record/sandiego/499
+Current: active threads / max count: 27 / 30
+Request: /record/sandiego/498
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/0
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/2
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/1
+Sending: {"status": "OK", "city": "sandiego", "date": "01-19 05:28:35", "temp": 39}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-16 15:49:09", "temp": -3}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-03 06:34:42", "temp": 12}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-10 07:02:15", "temp": 15}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-16 17:36:31", "temp": 7}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-14 08:36:21", "temp": 32}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-27 21:16:04", "temp": 32}
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/4
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/7
+Sending: {"status": "OK", "city": "sandiego", "date": "01-09 11:44:13", "temp": -5}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-02 21:10:30", "temp": 25}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-11 23:39:59", "temp": 28}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-07 19:50:17", "temp": -4}
+Current: active threads / max count: 26 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "03-15 03:19:29", "temp": 25}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-21 03:52:20", "temp": 25}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-01 16:51:22", "temp": -8}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-15 09:03:24", "temp": 4}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-13 06:14:41", "temp": 39}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-23 00:07:09", "temp": -3}
+Sending: {"status": "OK", "city": "sandiego", "date": "03-01 09:35:29", "temp": -9}
+Current: active threads / max count: 26 / 30
+Sending: {"status": "OK", "city": "sandiego", "date": "03-16 07:00:55", "temp": 16}
+Request: /record/philadelphia/3
+Sending: {"status": "OK", "city": "sandiego", "date": "03-15 19:24:07", "temp": 10}
+Sending: {"status": "OK", "city": "sandiego", "date": "05-03 01:21:25", "temp": 31}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-26 17:32:39", "temp": -8}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-20 09:34:59", "temp": 0}
+Sending: {"status": "OK", "city": "sandiego", "date": "01-18 20:31:28", "temp": 7}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-02 09:46:28", "temp": 0}
+Request: /record/philadelphia/6
+Sending: {"status": "OK", "city": "sandiego", "date": "01-06 06:52:21", "temp": 6}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-09 01:51:24", "temp": 28}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-19 23:40:44", "temp": -6}
+Sending: {"status": "OK", "city": "sandiego", "date": "04-10 13:31:01", "temp": 4}
+Sending: {"status": "OK", "city": "sandiego", "date": "02-24 15:00:30", "temp": 20}
+Current: active threads / max count: 23 / 30
+Request: /record/philadelphia/9
+Current: active threads / max count: 20 / 30
+Current: active threads / max count: 21 / 30
+Request: /record/philadelphia/8
+Request: /record/philadelphia/5
+Current: active threads / max count: 16 / 30
+Request: /record/philadelphia/10
+Current: active threads / max count: 9 / 30
+Request: /record/philadelphia/13
+Current: active threads / max count: 10 / 30
+Request: /record/philadelphia/14
+Current: active threads / max count: 11 / 30
+Request: /record/philadelphia/11
+Current: active threads / max count: 12 / 30
+Request: /record/philadelphia/12
+Current: active threads / max count: 13 / 30
+Request: /record/philadelphia/20
+Current: active threads / max count: 14 / 30
+Request: /record/philadelphia/16
+Current: active threads / max count: 15 / 30
+Request: /record/philadelphia/15
+Current: active threads / max count: 16 / 30
+Request: /record/philadelphia/17
+Current: active threads / max count: 17 / 30
+Request: /record/philadelphia/22
+Current: active threads / max count: 18 / 30
+Request: /record/philadelphia/21
+Current: active threads / max count: 19 / 30
+Request: /record/philadelphia/19
+Current: active threads / max count: 20 / 30
+Request: /record/philadelphia/18
+Current: active threads / max count: 21 / 30
+Request: /record/philadelphia/23
+Current: active threads / max count: 22 / 30
+Request: /record/philadelphia/24
+Current: active threads / max count: 23 / 30
+Request: /record/philadelphia/26
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/25
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/27
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/28
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/29
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/30
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/31
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/32
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-18 02:32:21", "temp": -2}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-25 01:43:53", "temp": -5}
+Current: active threads / max count: 29 / 30
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/33
+Request: /record/philadelphia/34
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-16 23:47:55", "temp": 23}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-14 23:48:23", "temp": 5}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-26 12:45:39", "temp": 7}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-10 11:49:48", "temp": 20}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-28 04:20:21", "temp": 1}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-15 01:56:40", "temp": 23}
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/35
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/36
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/39
+Current: active threads / max count: 28 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-25 04:48:44", "temp": -7}
+Request: /record/philadelphia/37
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/40
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/41
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-03 16:17:53", "temp": 0}
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/38
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-06 06:12:48", "temp": -1}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-05 14:42:48", "temp": -4}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-25 15:01:56", "temp": 35}
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/42
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-27 04:03:46", "temp": 24}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-09 02:17:52", "temp": 3}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-10 22:24:39", "temp": 25}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-28 12:04:15", "temp": 38}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-21 22:53:13", "temp": 11}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-20 18:30:13", "temp": -3}
+Current: active threads / max count: 22 / 30
+Request: /record/philadelphia/44
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-23 14:13:45", "temp": -9}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-02 23:06:36", "temp": 37}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-28 01:35:31", "temp": 25}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-21 23:26:25", "temp": 30}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-10 04:21:19", "temp": 2}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-25 00:58:51", "temp": 26}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-17 06:56:18", "temp": -7}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-28 23:46:01", "temp": 29}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-01 06:47:10", "temp": 36}
+Current: active threads / max count: 23 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-04 18:34:12", "temp": 27}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-27 22:46:31", "temp": 4}
+Request: /record/philadelphia/43
+Current: active threads / max count: 16 / 30
+Request: /record/philadelphia/47
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-31 09:12:49", "temp": 38}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-29 00:40:31", "temp": 13}
+Current: active threads / max count: 14 / 30
+Request: /record/philadelphia/48
+Current: active threads / max count: 13 / 30
+Request: /record/philadelphia/45
+Current: active threads / max count: 14 / 30
+Request: /record/philadelphia/46
+Current: active threads / max count: 15 / 30
+Request: /record/philadelphia/50
+Current: active threads / max count: 16 / 30
+Request: /record/philadelphia/49
+Current: active threads / max count: 17 / 30
+Request: /record/philadelphia/53
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-05 05:51:22", "temp": 1}
+Current: active threads / max count: 17 / 30
+Request: /record/philadelphia/51
+Current: active threads / max count: 18 / 30
+Request: /record/philadelphia/54
+Current: active threads / max count: 19 / 30
+Request: /record/philadelphia/57
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-11 06:55:54", "temp": 17}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-16 09:53:22", "temp": 25}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-08 05:59:29", "temp": 12}
+Current: active threads / max count: 20 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-19 09:32:01", "temp": 0}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-18 22:34:02", "temp": 11}
+Request: /record/philadelphia/52
+Current: active threads / max count: 21 / 30
+Request: /record/philadelphia/55
+Current: active threads / max count: 17 / 30
+Request: /record/philadelphia/60
+Current: active threads / max count: 18 / 30
+Request: /record/philadelphia/59
+Current: active threads / max count: 19 / 30
+Request: /record/philadelphia/58
+Current: active threads / max count: 20 / 30
+Request: /record/philadelphia/56
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-02 15:50:23", "temp": -7}
+Current: active threads / max count: 20 / 30
+Request: /record/philadelphia/62
+Current: active threads / max count: 21 / 30
+Request: /record/philadelphia/61
+Current: active threads / max count: 22 / 30
+Request: /record/philadelphia/63
+Current: active threads / max count: 23 / 30
+Request: /record/philadelphia/64
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/65
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/67
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/66
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/68
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/69
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/70
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/71
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-11 00:40:35", "temp": 18}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-09 12:30:17", "temp": 37}
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/72
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/73
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-23 04:14:17", "temp": -7}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-07 05:38:29", "temp": -5}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-12 17:00:47", "temp": 2}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-03 04:49:48", "temp": 0}
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/75
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/74
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/77
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-03 06:24:17", "temp": -2}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-04 10:56:06", "temp": 4}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-08 18:52:28", "temp": -2}
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/78
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/79
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-24 13:00:07", "temp": 39}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-22 05:47:08", "temp": 16}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-26 02:23:49", "temp": 7}
+Current: active threads / max count: 29 / 30
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/76
+Request: /record/philadelphia/80
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/81
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/82
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-26 10:50:16", "temp": 18}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-22 21:31:07", "temp": 1}
+Current: active threads / max count: 30 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-08 07:55:43", "temp": 27}
+Request: /record/philadelphia/83
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/84
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/85
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-22 12:53:32", "temp": 16}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-08 11:36:51", "temp": 8}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-14 23:54:20", "temp": 16}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-05 03:06:03", "temp": 11}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-17 00:32:18", "temp": 21}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-29 12:13:40", "temp": -5}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-04 02:11:18", "temp": 7}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-24 07:02:29", "temp": 25}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-02 14:40:37", "temp": 8}
+Current: active threads / max count: 21 / 30
+Request: /record/philadelphia/87
+Current: active threads / max count: 22 / 30
+Request: /record/philadelphia/89
+Current: active threads / max count: 23 / 30
+Request: /record/philadelphia/90
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/92
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/91
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/93
+Current: active threads / max count: 27 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-25 21:09:56", "temp": 22}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-23 16:42:36", "temp": 32}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-19 03:42:49", "temp": 11}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-02 12:54:26", "temp": 38}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-13 06:57:39", "temp": 27}
+Current: active threads / max count: 28 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-31 21:24:22", "temp": 11}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-06 18:56:41", "temp": -9}
+Request: /record/philadelphia/88
+Request: /record/philadelphia/86
+Current: active threads / max count: 29 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-03 19:46:37", "temp": 10}
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/94
+Request: /record/philadelphia/95
+Current: active threads / max count: 23 / 30
+Request: /record/philadelphia/97
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/96
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/101
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/100
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/98
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/102
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/103
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/99
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-08 20:02:36", "temp": 29}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-19 04:54:27", "temp": 25}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-18 07:18:17", "temp": 0}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-10 04:14:05", "temp": 25}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-02 02:03:24", "temp": 34}
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/104
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-25 03:43:53", "temp": -8}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-07 21:16:23", "temp": -7}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-24 21:37:04", "temp": 30}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-17 16:59:17", "temp": 38}
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/105
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/106
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/107
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-17 07:10:32", "temp": 28}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-22 00:01:18", "temp": 33}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-23 17:20:34", "temp": 7}
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/108
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/112
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/113
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/114
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/110
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/111
+Current: active threads / max count: 29 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-19 14:00:15", "temp": 30}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-11 13:55:47", "temp": 17}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-16 17:00:43", "temp": 36}
+Request: /record/philadelphia/109
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-13 07:54:42", "temp": 38}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-10 08:55:45", "temp": 12}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-09 02:11:34", "temp": 14}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-11 19:15:21", "temp": 9}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-27 08:03:10", "temp": 20}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-10 20:55:24", "temp": 10}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-28 21:24:30", "temp": 12}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-21 22:16:23", "temp": 20}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-01 07:39:39", "temp": 16}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-08 05:39:07", "temp": 20}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-26 21:08:19", "temp": 12}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-28 08:42:42", "temp": 21}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-12 18:07:38", "temp": 21}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-18 06:40:17", "temp": 14}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-24 19:41:55", "temp": -3}
+Current: active threads / max count: 20 / 30
+Request: /record/philadelphia/115
+Current: active threads / max count: 18 / 30
+Request: /record/philadelphia/116
+Current: active threads / max count: 14 / 30
+Request: /record/philadelphia/118
+Current: active threads / max count: 15 / 30
+Request: /record/philadelphia/119
+Current: active threads / max count: 16 / 30
+Request: /record/philadelphia/121
+Current: active threads / max count: 17 / 30
+Request: /record/philadelphia/125
+Current: active threads / max count: 18 / 30
+Request: /record/philadelphia/123
+Current: active threads / max count: 19 / 30
+Request: /record/philadelphia/128
+Current: active threads / max count: 20 / 30
+Request: /record/philadelphia/126
+Current: active threads / max count: 21 / 30
+Request: /record/philadelphia/124
+Current: active threads / max count: 22 / 30
+Request: /record/philadelphia/120
+Current: active threads / max count: 23 / 30
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/122
+Request: /record/philadelphia/117
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/127
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/131
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/130
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/133
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/132
+Current: active threads / max count: 30 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-21 11:32:18", "temp": 29}
+Request: /record/philadelphia/129
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-12 14:01:21", "temp": -7}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-28 11:09:52", "temp": 39}
+Current: active threads / max count: 30 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-07 02:41:41", "temp": 3}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-09 07:39:57", "temp": 5}
+Request: /record/philadelphia/134
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/135
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-02 23:36:29", "temp": 23}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-07 17:16:45", "temp": 27}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-09 21:18:27", "temp": 20}
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/136
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/137
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/138
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/139
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-19 05:42:58", "temp": 11}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-11 05:30:39", "temp": -2}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-15 07:27:35", "temp": 8}
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/141
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/143
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/142
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/144
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-05 07:17:43", "temp": 22}
+Current: active threads / max count: 30 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-11 03:45:50", "temp": 8}
+Request: /record/philadelphia/140
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/146
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-14 20:26:16", "temp": 22}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-28 09:23:37", "temp": 13}
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/145
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/147
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/148
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-03 03:56:12", "temp": -9}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-25 05:27:56", "temp": 21}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-25 03:26:37", "temp": -1}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-06 00:25:05", "temp": -8}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-24 03:41:24", "temp": 6}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-03 08:11:10", "temp": -2}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-12 04:50:26", "temp": -9}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-28 14:08:45", "temp": 25}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-08 19:31:54", "temp": 11}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-21 12:34:14", "temp": 25}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-17 10:31:15", "temp": 21}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-11 11:45:54", "temp": -1}
+Current: active threads / max count: 19 / 30
+Request: /record/philadelphia/149
+Current: active threads / max count: 20 / 30
+Request: /record/philadelphia/153
+Current: active threads / max count: 21 / 30
+Request: /record/philadelphia/154
+Current: active threads / max count: 22 / 30
+Request: /record/philadelphia/155
+Current: active threads / max count: 23 / 30
+Request: /record/philadelphia/151
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-20 17:07:15", "temp": -3}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-24 09:42:54", "temp": 17}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-21 11:43:18", "temp": 31}
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/157
+Current: active threads / max count: 23 / 30
+Request: /record/philadelphia/158
+Current: active threads / max count: 23 / 30
+Request: /record/philadelphia/156
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/150
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/152
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/159
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/160
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/162
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/161
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/163
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-17 15:32:23", "temp": 14}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-08 19:30:46", "temp": 17}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-13 03:56:27", "temp": 9}
+Current: active threads / max count: 30 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-01 18:25:40", "temp": 37}
+Request: /record/philadelphia/164
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/165
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/166
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/167
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-01 06:50:52", "temp": -5}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-17 13:41:47", "temp": -6}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-04 01:23:09", "temp": 26}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-28 17:31:12", "temp": 14}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-27 01:47:44", "temp": -8}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-10 14:48:47", "temp": 1}
+Current: active threads / max count: 25 / 30
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/169
+Request: /record/philadelphia/170
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/168
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/172
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/173
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-10 20:58:25", "temp": 6}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-18 12:03:09", "temp": 15}
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/175
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-16 16:25:22", "temp": -3}
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/174
+Current: active threads / max count: 30 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-12 22:08:08", "temp": 37}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-25 08:46:48", "temp": -1}
+Request: /record/philadelphia/171
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/176
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/178
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-09 04:20:43", "temp": 39}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-18 07:42:00", "temp": 11}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-10 23:23:18", "temp": -3}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-14 23:52:22", "temp": -8}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-11 04:48:29", "temp": 24}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-10 04:58:15", "temp": -8}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-14 02:47:45", "temp": 29}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-10 06:54:06", "temp": 36}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-07 10:01:10", "temp": 33}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-16 14:11:20", "temp": 16}
+Current: active threads / max count: 30 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-11 00:42:06", "temp": 2}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-07 12:42:42", "temp": 5}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-05 21:26:23", "temp": 9}
+Request: /record/philadelphia/177
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-06 00:19:21", "temp": 11}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-24 14:22:50", "temp": 26}
+Current: active threads / max count: 16 / 30
+Request: /record/philadelphia/179
+Current: active threads / max count: 17 / 30
+Request: /record/philadelphia/182
+Current: active threads / max count: 18 / 30
+Request: /record/philadelphia/183
+Current: active threads / max count: 19 / 30
+Request: /record/philadelphia/180
+Current: active threads / max count: 20 / 30
+Request: /record/philadelphia/185
+Current: active threads / max count: 21 / 30
+Request: /record/philadelphia/184
+Current: active threads / max count: 22 / 30
+Request: /record/philadelphia/186
+Current: active threads / max count: 23 / 30
+Request: /record/philadelphia/181
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/187
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/189
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/188
+Current: active threads / max count: 27 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-13 14:28:51", "temp": -2}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-04 08:39:28", "temp": 28}
+Request: /record/philadelphia/190
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-25 18:06:38", "temp": 12}
+Current: active threads / max count: 25 / 30
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/191
+Request: /record/philadelphia/193
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/192
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/194
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/195
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-26 19:51:48", "temp": 3}
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/197
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-17 02:33:17", "temp": 12}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-11 01:27:18", "temp": 32}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-30 17:46:08", "temp": 11}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-16 12:04:24", "temp": 23}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-02 20:32:49", "temp": 4}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-11 14:58:27", "temp": 5}
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/196
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/198
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/199
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/200
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/201
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/202
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-07 10:25:24", "temp": 3}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-25 12:31:46", "temp": -7}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-05 16:34:24", "temp": 22}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-28 10:10:37", "temp": 20}
+Current: active threads / max count: 26 / 30
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/203
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/204
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/207
+Request: /record/philadelphia/206
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/205
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-25 00:19:40", "temp": 4}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-22 04:26:45", "temp": 19}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-20 11:28:31", "temp": 10}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-14 02:35:40", "temp": 28}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-08 08:48:29", "temp": 5}
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/208
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-24 12:53:50", "temp": 22}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-16 23:47:30", "temp": 6}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-03 18:51:59", "temp": 0}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-14 02:46:46", "temp": 30}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-14 11:00:49", "temp": 5}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-02 04:01:17", "temp": 29}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-21 04:47:31", "temp": 38}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-03 15:47:28", "temp": -9}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-20 15:39:48", "temp": -9}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-19 15:50:35", "temp": 26}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-11 10:02:21", "temp": 3}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-20 08:16:33", "temp": 26}
+Current: active threads / max count: 27 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-02 07:24:57", "temp": 31}
+Request: /record/philadelphia/209
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-23 16:00:36", "temp": 28}
+Current: active threads / max count: 15 / 30
+Request: /record/philadelphia/212
+Current: active threads / max count: 15 / 30
+Request: /record/philadelphia/210
+Current: active threads / max count: 16 / 30
+Request: /record/philadelphia/211
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-28 14:48:43", "temp": 35}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-09 01:08:34", "temp": 24}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-02 07:51:08", "temp": 25}
+Current: active threads / max count: 14 / 30
+Request: /record/philadelphia/215
+Current: active threads / max count: 15 / 30
+Request: /record/philadelphia/216
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-25 22:22:48", "temp": 21}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-01 14:34:24", "temp": 6}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-31 09:50:19", "temp": 38}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-18 00:26:46", "temp": 30}
+Current: active threads / max count: 16 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-05 22:39:55", "temp": 5}
+Current: active threads / max count: 15 / 30
+Request: /record/philadelphia/214
+Request: /record/philadelphia/218
+Current: active threads / max count: 13 / 30
+Request: /record/philadelphia/217
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-25 14:07:25", "temp": 4}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-04 23:34:41", "temp": 33}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-04 06:21:36", "temp": 10}
+Current: active threads / max count: 11 / 30
+Request: /record/philadelphia/213
+Current: active threads / max count: 12 / 30
+Request: /record/philadelphia/219
+Current: active threads / max count: 13 / 30
+Request: /record/philadelphia/221
+Current: active threads / max count: 14 / 30
+Request: /record/philadelphia/222
+Current: active threads / max count: 15 / 30
+Request: /record/philadelphia/220
+Current: active threads / max count: 16 / 30
+Request: /record/philadelphia/224
+Current: active threads / max count: 17 / 30
+Request: /record/philadelphia/223
+Current: active threads / max count: 18 / 30
+Request: /record/philadelphia/225
+Current: active threads / max count: 19 / 30
+Request: /record/philadelphia/226
+Current: active threads / max count: 20 / 30
+Request: /record/philadelphia/227
+Current: active threads / max count: 21 / 30
+Request: /record/philadelphia/228
+Current: active threads / max count: 22 / 30
+Request: /record/philadelphia/229
+Current: active threads / max count: 23 / 30
+Request: /record/philadelphia/230
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/231
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/232
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/234
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/236
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/237
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/235
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-12 17:43:45", "temp": 8}
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/238
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-22 12:48:45", "temp": 1}
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/233
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-16 13:30:25", "temp": -6}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-02 17:08:02", "temp": 39}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-29 01:52:03", "temp": 3}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-05 11:43:54", "temp": 39}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-10 13:07:35", "temp": 0}
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/242
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/240
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/241
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/239
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-17 16:37:20", "temp": 22}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-09 23:54:17", "temp": 3}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-08 18:38:14", "temp": 14}
+Current: active threads / max count: 29 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-06 13:45:47", "temp": 29}
+Request: /record/philadelphia/243
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/244
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-13 00:03:23", "temp": -7}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-05 00:51:15", "temp": 16}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-24 02:21:27", "temp": 30}
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/247
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/246
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/248
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-02 03:44:58", "temp": -5}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-11 00:31:02", "temp": 24}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-19 04:40:40", "temp": 27}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-02 18:18:03", "temp": 5}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-13 10:21:09", "temp": -5}
+Current: active threads / max count: 27 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-05 00:11:54", "temp": 2}
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/245
+Request: /record/philadelphia/250
+Current: active threads / max count: 23 / 30
+Request: /record/philadelphia/251
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/249
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-14 03:28:39", "temp": 31}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-03 17:48:44", "temp": 37}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-12 14:03:12", "temp": -2}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-13 06:20:41", "temp": 36}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-04 23:51:33", "temp": -2}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-18 12:36:24", "temp": 4}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-16 20:20:22", "temp": 6}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-06 12:04:10", "temp": 31}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-01 08:17:27", "temp": 17}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-23 19:59:50", "temp": 31}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-07 17:33:15", "temp": 1}
+Current: active threads / max count: 14 / 30
+Request: /record/philadelphia/252
+Current: active threads / max count: 15 / 30
+Request: /record/philadelphia/253
+Current: active threads / max count: 16 / 30
+Request: /record/philadelphia/256
+Current: active threads / max count: 17 / 30
+Request: /record/philadelphia/254
+Current: active threads / max count: 18 / 30
+Request: /record/philadelphia/255
+Current: active threads / max count: 19 / 30
+Request: /record/philadelphia/259
+Current: active threads / max count: 20 / 30
+Request: /record/philadelphia/260
+Current: active threads / max count: 21 / 30
+Request: /record/philadelphia/262
+Current: active threads / max count: 22 / 30
+Request: /record/philadelphia/263
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-10 19:17:37", "temp": 37}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-15 06:41:30", "temp": 33}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-11 15:07:49", "temp": 14}
+Current: active threads / max count: 23 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-21 19:24:46", "temp": 5}
+Request: /record/philadelphia/261
+Current: active threads / max count: 20 / 30
+Request: /record/philadelphia/257
+Current: active threads / max count: 21 / 30
+Request: /record/philadelphia/264
+Current: active threads / max count: 22 / 30
+Request: /record/philadelphia/258
+Current: active threads / max count: 23 / 30
+Request: /record/philadelphia/265
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/268
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/267
+Current: active threads / max count: 26 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-24 10:29:02", "temp": 16}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-17 22:17:37", "temp": 14}
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/270
+Request: /record/philadelphia/266
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/271
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/269
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/272
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/273
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/274
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-17 14:45:20", "temp": 33}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-05 06:27:40", "temp": 16}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-05 12:18:31", "temp": 9}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-10 06:15:10", "temp": 10}
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/275
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/276
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-25 12:45:36", "temp": 15}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-03 16:51:17", "temp": 2}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-04 18:14:47", "temp": 25}
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/278
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/280
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/279
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-20 16:39:31", "temp": -3}
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/277
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/281
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-28 17:14:10", "temp": 12}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-05 17:53:18", "temp": -8}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-14 02:38:55", "temp": 36}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-30 10:28:53", "temp": -8}
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/283
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-01 15:21:16", "temp": 22}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-28 12:39:06", "temp": 15}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-03 05:01:34", "temp": 37}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-14 14:33:23", "temp": 29}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-09 03:30:46", "temp": 35}
+Current: active threads / max count: 27 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-27 13:54:37", "temp": 17}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-27 13:21:18", "temp": 36}
+Request: /record/philadelphia/282
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/286
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/284
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/285
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-18 08:10:10", "temp": 32}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-03 00:43:49", "temp": 13}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-05 15:31:00", "temp": 1}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-30 05:49:58", "temp": 34}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-02 07:32:53", "temp": 20}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-03 15:38:48", "temp": 10}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-17 22:10:01", "temp": -4}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-12 14:34:12", "temp": -9}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-05 14:20:28", "temp": 4}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-19 18:38:40", "temp": 12}
+Current: active threads / max count: 24 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-27 18:45:18", "temp": 23}
+Request: /record/philadelphia/288
+Current: active threads / max count: 23 / 30
+Request: /record/philadelphia/289
+Current: active threads / max count: 15 / 30
+Request: /record/philadelphia/287
+Current: active threads / max count: 16 / 30
+Request: /record/philadelphia/291
+Current: active threads / max count: 17 / 30
+Request: /record/philadelphia/290
+Current: active threads / max count: 18 / 30
+Current: active threads / max count: 19 / 30
+Request: /record/philadelphia/292
+Request: /record/philadelphia/293
+Current: active threads / max count: 20 / 30
+Request: /record/philadelphia/294
+Current: active threads / max count: 21 / 30
+Request: /record/philadelphia/295
+Current: active threads / max count: 22 / 30
+Request: /record/philadelphia/296
+Current: active threads / max count: 23 / 30
+Request: /record/philadelphia/297
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/298
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/299
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/301
+Current: active threads / max count: 27 / 30
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/302
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/304
+Request: /record/philadelphia/303
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/300
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-25 09:47:39", "temp": 13}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-11 12:21:12", "temp": 9}
+Current: active threads / max count: 30 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-20 14:02:08", "temp": 32}
+Request: /record/philadelphia/305
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/306
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-23 14:40:38", "temp": 20}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-03 00:47:53", "temp": 9}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-03 03:02:12", "temp": -4}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-08 10:45:49", "temp": 32}
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/309
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/308
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/310
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/311
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/307
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-15 00:23:13", "temp": 27}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-29 11:32:59", "temp": -1}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-15 17:08:19", "temp": 8}
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/314
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/313
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-20 10:14:27", "temp": -1}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-03 15:07:51", "temp": 7}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-10 04:55:20", "temp": 33}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-28 12:03:40", "temp": 39}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-02 11:05:51", "temp": 19}
+Current: active threads / max count: 30 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-07 12:18:49", "temp": -9}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-20 15:04:57", "temp": -8}
+Request: /record/philadelphia/312
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/315
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/316
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/319
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/318
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/320
+Current: active threads / max count: 29 / 30
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/317
+Request: /record/philadelphia/321
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-12 06:26:22", "temp": 17}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-01 23:41:45", "temp": 22}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-17 17:02:59", "temp": 32}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-06 04:55:02", "temp": 28}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-18 11:54:47", "temp": -9}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-12 00:03:04", "temp": 38}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-30 08:27:23", "temp": -8}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-11 01:36:02", "temp": 5}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-13 13:37:27", "temp": 22}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-13 01:09:11", "temp": 27}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-27 16:07:11", "temp": 19}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-15 12:55:03", "temp": 38}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-29 21:39:16", "temp": 30}
+Current: active threads / max count: 18 / 30
+Request: /record/philadelphia/322
+Current: active threads / max count: 19 / 30
+Request: /record/philadelphia/323
+Current: active threads / max count: 20 / 30
+Request: /record/philadelphia/324
+Current: active threads / max count: 21 / 30
+Request: /record/philadelphia/325
+Current: active threads / max count: 22 / 30
+Request: /record/philadelphia/326
+Current: active threads / max count: 23 / 30
+Request: /record/philadelphia/328
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/331
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/330
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/327
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/329
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/333
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/332
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/334
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-07 20:27:11", "temp": 4}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-07 07:50:20", "temp": 18}
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/336
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/335
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-30 22:37:12", "temp": -7}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-07 13:12:35", "temp": 11}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-10 19:43:54", "temp": 26}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-03 00:36:33", "temp": 4}
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/337
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/339
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/338
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/340
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-03 18:21:05", "temp": 0}
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/341
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-09 23:14:38", "temp": 22}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-11 22:36:11", "temp": 29}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-18 07:38:06", "temp": 3}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-26 07:34:16", "temp": 2}
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/344
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-23 12:39:24", "temp": 33}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-28 19:05:53", "temp": 5}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-04 12:29:51", "temp": -8}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-15 12:29:35", "temp": -8}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-16 04:14:09", "temp": 18}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-01 21:24:49", "temp": -3}
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/342
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/343
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-02 00:22:57", "temp": 1}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-10 11:12:09", "temp": -5}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-01 22:55:22", "temp": 26}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-04 00:13:30", "temp": 30}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-21 00:45:51", "temp": 12}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-22 15:36:53", "temp": 8}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-12 02:56:33", "temp": 7}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-03 09:42:46", "temp": 17}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-02 12:22:41", "temp": -2}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-31 06:30:28", "temp": 17}
+Current: active threads / max count: 24 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-05 15:01:24", "temp": 39}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-14 04:00:46", "temp": 23}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-23 13:52:26", "temp": 22}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-24 07:28:17", "temp": 21}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-29 11:35:00", "temp": -6}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-19 19:48:51", "temp": 32}
+Current: active threads / max count: 19 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-13 09:40:30", "temp": 9}
+Request: /record/philadelphia/345
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-22 09:43:25", "temp": 30}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-15 22:47:17", "temp": 19}
+Request: /record/philadelphia/346
+Current: active threads / max count: 10 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-14 02:12:43", "temp": 14}
+Request: /record/philadelphia/347
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-23 05:05:47", "temp": 18}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-26 20:03:57", "temp": 15}
+Current: active threads / max count: 7 / 30
+Current: active threads / max count: 8 / 30
+Request: /record/philadelphia/348
+Request: /record/philadelphia/349
+Current: active threads / max count: 7 / 30
+Request: /record/philadelphia/350
+Current: active threads / max count: 8 / 30
+Request: /record/philadelphia/352
+Current: active threads / max count: 9 / 30
+Request: /record/philadelphia/353
+Current: active threads / max count: 10 / 30
+Request: /record/philadelphia/354
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-25 19:38:03", "temp": 28}
+Current: active threads / max count: 10 / 30
+Request: /record/philadelphia/355
+Current: active threads / max count: 11 / 30
+Request: /record/philadelphia/356
+Current: active threads / max count: 12 / 30
+Request: /record/philadelphia/359
+Current: active threads / max count: 13 / 30
+Request: /record/philadelphia/360
+Current: active threads / max count: 14 / 30
+Request: /record/philadelphia/358
+Current: active threads / max count: 15 / 30
+Current: active threads / max count: 16 / 30
+Request: /record/philadelphia/361
+Request: /record/philadelphia/357
+Current: active threads / max count: 17 / 30
+Request: /record/philadelphia/362
+Current: active threads / max count: 18 / 30
+Current: active threads / max count: 19 / 30
+Request: /record/philadelphia/364
+Request: /record/philadelphia/351
+Current: active threads / max count: 20 / 30
+Request: /record/philadelphia/363
+Current: active threads / max count: 21 / 30
+Request: /record/philadelphia/365
+Current: active threads / max count: 22 / 30
+Request: /record/philadelphia/367
+Current: active threads / max count: 23 / 30
+Request: /record/philadelphia/366
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/368
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/370
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/372
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/369
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/373
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/374
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/371
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-16 06:14:11", "temp": -5}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-15 23:00:49", "temp": 21}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-25 01:05:26", "temp": 9}
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/375
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/376
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/377
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-23 21:52:39", "temp": 35}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-21 16:39:29", "temp": -5}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-15 06:32:59", "temp": 1}
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/378
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/379
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/380
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-23 15:35:39", "temp": 14}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-06 05:49:15", "temp": 17}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-18 08:04:39", "temp": -1}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-09 02:36:38", "temp": 16}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-17 07:46:17", "temp": 36}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-07 00:53:55", "temp": 25}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-04 22:04:43", "temp": 16}
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/381
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/383
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/384
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/385
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/382
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/387
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-20 20:47:54", "temp": -2}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-06 00:03:44", "temp": 7}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-23 11:47:48", "temp": 4}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-31 08:05:33", "temp": 36}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-25 22:56:59", "temp": 32}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-26 08:09:13", "temp": -2}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-27 15:20:37", "temp": 26}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-25 16:59:44", "temp": 14}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-13 04:48:58", "temp": 21}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-21 02:47:33", "temp": -5}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-07 00:56:55", "temp": 33}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-18 06:14:18", "temp": 25}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-03 19:45:25", "temp": 7}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-01 07:04:40", "temp": 33}
+Current: active threads / max count: 16 / 30
+Request: /record/philadelphia/388
+Current: active threads / max count: 17 / 30
+Request: /record/philadelphia/389
+Current: active threads / max count: 18 / 30
+Current: active threads / max count: 19 / 30
+Request: /record/philadelphia/386
+Current: active threads / max count: 20 / 30
+Request: /record/philadelphia/391
+Request: /record/philadelphia/390
+Current: active threads / max count: 21 / 30
+Request: /record/philadelphia/393
+Current: active threads / max count: 22 / 30
+Request: /record/philadelphia/398
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-17 15:52:17", "temp": 5}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-04 03:30:55", "temp": 37}
+Current: active threads / max count: 23 / 30
+Request: /record/philadelphia/397
+Current: active threads / max count: 22 / 30
+Request: /record/philadelphia/399
+Current: active threads / max count: 23 / 30
+Request: /record/philadelphia/392
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/395
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/400
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/396
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/394
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/402
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/403
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-02 10:12:18", "temp": 34}
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/401
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/404
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-01 07:48:24", "temp": 20}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-11 17:08:34", "temp": 25}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-07 01:31:00", "temp": 23}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-24 22:14:59", "temp": 13}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-09 11:42:46", "temp": 31}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-16 09:56:01", "temp": 8}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-22 10:12:55", "temp": 29}
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/406
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/407
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/409
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-18 05:16:47", "temp": 37}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-05 14:57:07", "temp": 6}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-14 09:38:41", "temp": 39}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-27 12:01:50", "temp": 39}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-15 07:29:29", "temp": 1}
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/405
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/410
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/408
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/411
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-04 12:08:54", "temp": 24}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-13 02:55:56", "temp": 15}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-08 08:32:56", "temp": -3}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-12 00:49:46", "temp": 0}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-19 21:16:12", "temp": 29}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-14 15:11:27", "temp": 37}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-26 05:36:48", "temp": 14}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-21 12:39:18", "temp": 27}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-20 10:04:42", "temp": 22}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-06 19:29:03", "temp": 15}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-23 23:34:14", "temp": 23}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-17 07:15:35", "temp": 33}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-27 06:37:29", "temp": 23}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-08 10:57:53", "temp": 26}
+Current: active threads / max count: 23 / 30
+Request: /record/philadelphia/412
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-20 21:52:57", "temp": -6}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-28 02:15:32", "temp": -2}
+Current: active threads / max count: 11 / 30
+Request: /record/philadelphia/413
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-06 00:13:04", "temp": -6}
+Current: active threads / max count: 12 / 30
+Request: /record/philadelphia/414
+Current: active threads / max count: 12 / 30
+Request: /record/philadelphia/415
+Current: active threads / max count: 13 / 30
+Request: /record/philadelphia/416
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-20 02:54:00", "temp": 0}
+Current: active threads / max count: 14 / 30
+Request: /record/philadelphia/417
+Current: active threads / max count: 14 / 30
+Request: /record/philadelphia/422
+Current: active threads / max count: 15 / 30
+Request: /record/philadelphia/418
+Current: active threads / max count: 16 / 30
+Request: /record/philadelphia/419
+Current: active threads / max count: 17 / 30
+Request: /record/philadelphia/424
+Current: active threads / max count: 18 / 30
+Request: /record/philadelphia/425
+Current: active threads / max count: 19 / 30
+Request: /record/philadelphia/420
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-09 04:24:03", "temp": 18}
+Current: active threads / max count: 20 / 30
+Request: /record/philadelphia/423
+Current: active threads / max count: 20 / 30
+Request: /record/philadelphia/421
+Current: active threads / max count: 21 / 30
+Request: /record/philadelphia/426
+Current: active threads / max count: 22 / 30
+Request: /record/philadelphia/427
+Current: active threads / max count: 23 / 30
+Request: /record/philadelphia/428
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/429
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/431
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/430
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/432
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-01 13:16:21", "temp": 36}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-26 02:28:20", "temp": 15}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-01 00:18:09", "temp": 16}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-25 14:11:10", "temp": 20}
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/434
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/435
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/433
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/436
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/437
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/438
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-08 02:59:48", "temp": 32}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-22 14:21:46", "temp": -9}
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/439
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/440
+Current: active threads / max count: 30 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-15 15:29:46", "temp": 9}
+Request: /record/philadelphia/441
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-23 02:16:23", "temp": 26}
+Current: active threads / max count: 30 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-31 13:26:44", "temp": 3}
+Request: /record/philadelphia/442
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/444
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-05 19:31:28", "temp": 3}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-26 20:32:34", "temp": 39}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-28 04:24:23", "temp": 36}
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/445
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/446
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-15 19:00:45", "temp": 35}
+Current: active threads / max count: 29 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-22 09:43:54", "temp": 19}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-19 10:02:22", "temp": -3}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-11 02:30:39", "temp": 24}
+Request: /record/philadelphia/443
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/447
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/448
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/449
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/450
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/451
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-05 03:01:37", "temp": 37}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-04 05:22:38", "temp": 15}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-20 23:39:04", "temp": 36}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-14 19:48:42", "temp": -4}
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/453
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/452
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/454
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/455
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-14 07:22:36", "temp": 31}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-12 05:01:17", "temp": 20}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-21 11:17:18", "temp": 31}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-24 01:45:43", "temp": -8}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-20 23:49:08", "temp": 8}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-26 11:12:33", "temp": 13}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-09 17:34:05", "temp": 20}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-03 15:40:48", "temp": 36}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-01 12:30:20", "temp": -2}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-25 11:32:16", "temp": 22}
+Current: active threads / max count: 21 / 30
+Request: /record/philadelphia/456
+Current: active threads / max count: 22 / 30
+Request: /record/philadelphia/457
+Current: active threads / max count: 23 / 30
+Request: /record/philadelphia/459
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/458
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/460
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/463
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/464
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-27 01:28:41", "temp": 6}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-10 13:27:08", "temp": 5}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-23 21:24:12", "temp": 17}
+Current: active threads / max count: 28 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-04 09:22:55", "temp": 30}
+Request: /record/philadelphia/462
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-27 13:28:59", "temp": 34}
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/465
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/461
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/466
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/469
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/468
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/467
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/470
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-22 08:32:26", "temp": 6}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-23 14:12:47", "temp": 37}
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/471
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/472
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-08 18:35:11", "temp": -7}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-12 11:00:11", "temp": 23}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-11 05:51:13", "temp": 19}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-17 17:08:28", "temp": -8}
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/473
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/474
+Current: active threads / max count: 29 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-16 10:10:36", "temp": 11}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-02 11:55:49", "temp": 10}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-23 16:39:11", "temp": 34}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-21 09:32:30", "temp": 38}
+Request: /record/philadelphia/475
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-14 06:22:45", "temp": 26}
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/477
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-04 14:16:05", "temp": -1}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-18 03:38:23", "temp": 29}
+Current: active threads / max count: 26 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-21 20:27:02", "temp": 7}
+Request: /record/philadelphia/476
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-13 17:56:16", "temp": 3}
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/478
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/479
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/480
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/481
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/482
+Current: active threads / max count: 28 / 30
+Request: /record/philadelphia/483
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/484
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/485
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-22 04:46:16", "temp": 25}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-12 22:42:32", "temp": -4}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-27 17:05:56", "temp": 14}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-03 23:56:35", "temp": 10}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-21 07:39:28", "temp": 29}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-27 07:35:04", "temp": 1}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-26 15:45:04", "temp": 14}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-14 19:49:07", "temp": 39}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-26 05:31:12", "temp": -2}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-09 19:41:33", "temp": 39}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-28 17:41:46", "temp": 22}
+Current: active threads / max count: 20 / 30
+Request: /record/philadelphia/486
+Current: active threads / max count: 21 / 30
+Request: /record/philadelphia/489
+Current: active threads / max count: 22 / 30
+Current: active threads / max count: 23 / 30
+Request: /record/philadelphia/490
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/491
+Request: /record/philadelphia/492
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-29 10:45:51", "temp": 8}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-08 18:25:27", "temp": 28}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-22 13:02:32", "temp": -6}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-09 23:19:11", "temp": 31}
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/488
+Current: active threads / max count: 23 / 30
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/487
+Request: /record/philadelphia/493
+Current: active threads / max count: 24 / 30
+Request: /record/philadelphia/495
+Current: active threads / max count: 25 / 30
+Request: /record/philadelphia/496
+Current: active threads / max count: 26 / 30
+Request: /record/philadelphia/494
+Current: active threads / max count: 27 / 30
+Request: /record/philadelphia/497
+Current: active threads / max count: 28 / 30
+Request: /record/san_antonio/0
+Current: active threads / max count: 29 / 30
+Request: /record/philadelphia/499
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-10 11:47:59", "temp": 0}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-28 19:12:33", "temp": 38}
+Current: active threads / max count: 28 / 30
+Request: /record/san_antonio/2
+Current: active threads / max count: 29 / 30
+Request: /record/san_antonio/1
+Current: active threads / max count: 30 / 30
+Request: /record/philadelphia/498
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-07 02:37:04", "temp": 38}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-13 02:36:47", "temp": 6}
+Current: active threads / max count: 30 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-01 09:26:13", "temp": -7}
+Request: /record/san_antonio/3
+Current: active threads / max count: 29 / 30
+Request: /record/san_antonio/4
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-24 15:09:07", "temp": 32}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-21 22:45:44", "temp": 19}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-17 21:34:54", "temp": -4}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-22 00:23:13", "temp": 10}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-06 08:16:43", "temp": -1}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-03 20:43:44", "temp": -7}
+Current: active threads / max count: 24 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-01 01:10:58", "temp": 5}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-23 20:42:45", "temp": 33}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-29 01:37:34", "temp": -6}
+Current: active threads / max count: 25 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-09 15:42:00", "temp": -1}
+Current: active threads / max count: 24 / 30
+Request: /record/san_antonio/5
+Request: /record/san_antonio/7
+Request: /record/san_antonio/6
+Current: active threads / max count: 23 / 30
+Request: /record/san_antonio/9
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-10 13:36:46", "temp": -9}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-08 19:34:09", "temp": 15}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-27 16:53:43", "temp": 9}
+Sending: {"status": "OK", "city": "philadelphia", "date": "03-21 00:54:21", "temp": 24}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-02 23:19:30", "temp": 10}
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-17 21:39:21", "temp": 6}
+Sending: {"status": "OK", "city": "philadelphia", "date": "04-28 17:47:37", "temp": 3}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-10 08:33:00", "temp": 17}
+Current: active threads / max count: 24 / 30
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-23 14:03:50", "temp": 29}
+Request: /record/san_antonio/8
+Sending: {"status": "OK", "city": "philadelphia", "date": "05-16 18:44:53", "temp": 22}
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-31 07:52:57", "temp": 7}
+Sending: {"status": "OK", "city": "san_antonio", "date": "05-08 16:20:53", "temp": 35}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-02 03:54:21", "temp": -5}
+Sending: {"status": "OK", "city": "philadelphia", "date": "02-20 06:02:05", "temp": 39}
+Sending: {"status": "OK", "city": "san_antonio", "date": "04-29 13:23:51", "temp": 39}
+Current: active threads / max count: 10 / 30
+Current: active threads / max count: 11 / 30
+Request: /record/san_antonio/13
+Sending: {"status": "OK", "city": "philadelphia", "date": "01-30 09:03:35", "temp": -1}
+Sending: {"status": "OK", "city": "san_antonio", "date": "02-10 15:05:28", "temp": 16}
+Request: /record/san_antonio/11
+Current: active threads / max count: 12 / 30
+Request: /record/san_antonio/12
+Current: active threads / max count: 13 / 30
+Request: /record/san_antonio/10
+Current: active threads / max count: 12 / 30
+Request: /record/san_antonio/17
+Current: active threads / max count: 13 / 30
+Request: /record/san_antonio/18
+Current: active threads / max count: 14 / 30
+Request: /record/san_antonio/21
+Sending: {"status": "OK", "city": "san_antonio", "date": "02-14 04:43:05", "temp": 30}
+Current: active threads / max count: 15 / 30
+Request: /record/san_antonio/15
+Current: active threads / max count: 15 / 30
+Request: /record/san_antonio/22
+Current: active threads / max count: 16 / 30
+Request: /record/san_antonio/14
+Current: active threads / max count: 17 / 30
+Request: /record/san_antonio/24
+Current: active threads / max count: 18 / 30
+Request: /record/san_antonio/19
+Current: active threads / max count: 19 / 30
+Request: /record/san_antonio/26
+Current: active threads / max count: 20 / 30
+Request: /record/san_antonio/25
+Current: active threads / max count: 21 / 30
+Request: /record/san_antonio/23
+Current: active threads / max count: 22 / 30
+Current: active threads / max count: 23 / 30
+Request: /record/san_antonio/27
+Request: /record/san_antonio/28
+Current: active threads / max count: 24 / 30
+Request: /record/san_antonio/29
+Current: active threads / max count: 25 / 30
+Request: /record/san_antonio/30
+Current: active threads / max count: 26 / 30
+Request: /record/san_antonio/31
+Current: active threads / max count: 27 / 30
+Sending: {"status": "OK", "city": "san_antonio", "date": "02-08 20:45:03", "temp": 3}
+Request: /record/san_antonio/32
+Current: active threads / max count: 28 / 30
+Request: /record/san_antonio/20
+Current: active threads / max count: 29 / 30
+Request: /record/san_antonio/16
+Current: active threads / max count: 30 / 30
+Request: /record/san_antonio/33
+Sending: {"status": "OK", "city": "san_antonio", "date": "03-15 00:09:26", "temp": 25}
+Sending: {"status": "OK", "city": "san_antonio", "date": "01-10 14:19:31", "temp": 38}
+Sending: {"status": "OK", "city": "san_antonio", "date": "01-18 02:56:20", "temp": 28}
+Current: active threads / max count: 30 / 30
+Request: /record/san_antonio/34
+Current: active threads / max count: 28 / 30
+Request: /record/san_antonio/35
+Current: active threads / max count: 29 / 30
+Request: /record/san_antonio/37
+Sending: {"status": "OK", "city": "san_antonio", "date": "03-05 22:47:00", "temp": 33}
+Sending: {"status": "OK", "city": "san_antonio", "date": "04-13 01:17:16", "temp": 35}
+Current: active threads / max count: 29 / 30
+Request: /record/san_antonio/36
+Sending: {"status": "OK", "city": "san_antonio", "date": "02-01 13:10:06", "temp": 36}
+Sending: {"status": "OK", "city": "san_antonio", "date": "01-05 03:41:22", "temp": 34}
+Current: active threads / max count: 29 / 30
+Sending: {"status": "OK", "city": "san_antonio", "date": "05-02 03:49:52", "temp": 15}
+Request: /record/san_antonio/38
+Sending: {"status": "OK", "city": "san_antonio", "date": "03-13 22:42:03", "temp": 18}
+Current: active threads / max count: 26 / 30
+Sending: {"status": "OK", "city": "san_antonio", "date": "04-13 16:14:39", "temp": 5}
+Sending: {"status": "OK", "city": "san_antonio", "date": "05-17 08:02:26", "temp": 24}
+Current: active threads / max count: 27 / 30
+Request: /record/san_antonio/40
+Request: /record/san_antonio/39
+Current: active threads / max count: 28 / 30
+Request: /record/san_antonio/41
+Current: active threads / max count: 27 / 30
+Request: /record/san_antonio/42
+Sending: {"status": "OK", "city": "san_antonio", "date": "02-11 23:21:32", "temp": 7}
+Sending: {"status": "OK", "city": "san_antonio", "date": "05-16 04:17:36", "temp": -2}
+Sending: {"status": "OK", "city": "san_antonio", "date": "01-01 01:19:08", "temp": 22}
+Sending: {"status": "OK", "city": "san_antonio", "date": "02-05 03:56:27", "temp": 38}
+Sending: {"status": "OK", "city": "san_antonio", "date": "04-17 21:19:36", "temp": 3}
+Sending: {"status": "OK", "city": "san_antonio", "date": "02-02 08:09:56", "temp": 22}
+Sending: {"status": "OK", "city": "san_antonio", "date": "02-11 03:12:43", "temp": 2}
+Sending: {"status": "OK", "city": "san_antonio", "date": "04-08 18:01:05", "temp": 10}
+Sending: {"status": "OK", "city": "san_antonio", "date": "01-12 19:59:25", "temp": 16}
+Sending: {"status": "OK", "city": "san_antonio", "date": "03-03 05:03:12", "temp": 22}
+Sending: {"status": "OK", "city": "san_antonio", "date": "05-11 10:42:12", "temp": 18}
+Sending: {"status": "OK", "city": "san_antonio", "date": "02-09 07:46:06", "temp": 34}
+Sending: {"status": "OK", "city": "san_antonio", "date": "05-07 18:15:40", "temp": 19}
+Current: active threads / max count: 21 / 30
+Sending: {"status": "OK", "city": "san_antonio", "date": "02-28 11:06:19", "temp": 1}
+Sending: {"status": "OK", "city": "san_antonio", "date": "03-13 06:40:00", "temp": 18}
+Sending: {"status": "OK", "city": "san_antonio", "date": "05-12 11:47:40", "temp": 3}
+Sending: {"status": "OK", "city": "san_antonio", "date": "02-27 17:55:49", "temp": 30}
+Sending: {"status": "OK", "city": "san_antonio", "date": "05-07 07:20:25", "temp": 11}
+Current: active threads / max count: 22 / 30
+Request: /record/san_antonio/45
+Current: active threads / max count: 23 / 30
+Request: /record/san_antonio/43
+Request: /record/san_antonio/44
+Current: active threads / max count: 19 / 30
+Request: /record/san_antonio/47
+Sending: {"status": "OK", "city": "san_antonio", "date": "05-06 22:50:50", "temp": -5}
+Sending: {"status": "OK", "city": "san_antonio", "date": "02-22 15:23:02", "temp": 4}
+Current: active threads / max count: 14 / 30
+Request: /record/san_antonio/46
+Current: active threads / max count: 13 / 30
+Request: /record/san_antonio/49
+Current: active threads / max count: 14 / 30
+Sending: {"status": "OK", "city": "san_antonio", "date": "02-28 17:40:17", "temp": 9}
+Request: /record/san_antonio/51
+Current: active threads / max count: 14 / 30
+Request: /record/san_antonio/52
+Current: active threads / max count: 15 / 30
+Request: /record/san_antonio/57
+Sending: {"status": "OK", "city": "san_antonio", "date": "04-19 10:42:51", "temp": 16}
+Current: active threads / max count: 15 / 30
+Request: /record/san_antonio/53
+Sending: {"status": "OK", "city": "san_antonio", "date": "04-04 11:48:25", "temp": 11}
+Current: active threads / max count: 16 / 30
+Request: /record/san_antonio/48
+Current: active threads / max count: 16 / 30
+Request: /record/san_antonio/50
+Current: active threads / max count: 17 / 30
+Request: /record/san_antonio/54
+Current: active threads / max count: 18 / 30
+Request: /record/san_antonio/59
+Current: active threads / max count: 19 / 30
+Request: /record/san_antonio/62
+Current: active threads / max count: 20 / 30
+Request: /record/san_antonio/63
+Current: active threads / max count: 21 / 30
+Request: /record/san_antonio/64
+Current: active threads / max count: 22 / 30
+Request: /record/san_antonio/65
+Current: active threads / max count: 23 / 30
+Request: /record/san_antonio/66
+Sending: {"status": "OK", "city": "san_antonio", "date": "03-06 00:46:19", "temp": 12}
+Sending: {"status": "OK", "city": "san_antonio", "date": "04-17 01:56:28", "temp": 31}
+Current: active threads / max count: 24 / 30
+Sending: {"status": "OK", "city": "san_antonio", "date": "01-29 01:38:30", "temp": 39}
+Current: active threads / max count: 25 / 30
+Request: /record/san_antonio/67
+Request: /record/san_antonio/55
+Current: active threads / max count: 26 / 30
+Request: /record/san_antonio/58
+Current: active threads / max count: 27 / 30
+Request: /record/san_antonio/56
+Current: active threads / max count: 26 / 30
+Request: /record/san_antonio/68
+Current: active threads / max count: 26 / 30
+Request: /record/san_antonio/69
+Current: active threads / max count: 27 / 30
+Request: /record/san_antonio/70
+Sending: {"status": "OK", "city": "san_antonio", "date": "01-23 01:45:10", "temp": 20}
+Current: active threads / max count: 28 / 30
+Current: active threads / max count: 29 / 30
+Request: /record/san_antonio/61
+Request: /record/san_antonio/60
+Current: active threads / max count: 29 / 30
+Request: /record/san_antonio/71
+Current: active threads / max count: 30 / 30
+Request: /record/san_antonio/72
+Sending: {"status": "OK", "city": "san_antonio", "date": "03-16 00:26:22", "temp": -4}
+Sending: {"status": "OK", "city": "san_antonio", "date": "05-11 16:56:31", "temp": 33}
+Sending: {"status": "OK", "city": "san_antonio", "date": "02-05 14:33:18", "temp": 34}
+Sending: {"status": "OK", "city": "san_antonio", "date": "04-21 12:12:50", "temp": 27}
+Sending: {"status": "OK", "city": "san_antonio", "date": "01-09 02:55:09", "temp": 6}
+Current: active threads / max count: 26 / 30
+Request: /record/san_antonio/73
+Sending: {"status": "OK", "city": "san_antonio", "date": "01-18 02:10:01", "temp": 37}
+Sending: {"status": "OK", "city": "san_antonio", "date": "03-14 04:22:09", "temp": 23}
+Current: active threads / max count: 25 / 30
+Request: /record/san_antonio/74
+Current: active threads / max count: 26 / 30
+Request: /record/san_antonio/76
+Current: active threads / max count: 27 / 30
+Request: /record/san_antonio/75
+Sending: {"status": "OK", "city": "san_antonio", "date": "04-08 06:10:53", "temp": 22}
+Sending: {"status": "OK", "city": "san_antonio", "date": "05-01 09:01:04", "temp": 6}
+Sending: {"status": "OK", "city": "san_antonio", "date": "01-14 00:50:20", "temp": -3}
+Current: active threads / max count: 28 / 30
+Request: /record/san_antonio/77
+Current: active threads / max count: 26 / 30
+Request: /record/san_antonio/78
+Current: active threads / max count: 27 / 30
+Request: /record/san_antonio/79
+Sending: {"status": "OK", "city": "san_antonio", "date": "02-21 15:13:05", "temp": 11}
+Sending: {"status": "OK", "city": "san_antonio", "date": "02-03 07:47:06", "temp": 18}
+Sending: {"status": "OK", "city": "san_antonio", "date": "02-14 02:46:46", "temp": -9}
+Current: active threads / max count: 28 / 30
+Request: /record/san_antonio/80
+Current: active threads / max count: 26 / 30
+Request: /record/san_antonio/81
+Sending: {"status": "OK", "city": "san_antonio", "date": "03-09 09:16:57", "temp": 27}
+Sending: {"status": "OK", "city": "san_antonio", "date": "03-21 06:55:28", "temp": -3}
+Sending: {"status": "OK", "city": "san_antonio", "date": "04-29 04:21:29", "temp": -7}
