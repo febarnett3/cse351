@@ -34,7 +34,6 @@ def retrieve_weather_data(q1, q2, q1_empty_slots, q1_full_slots, q2_empty_slots,
         q1_full_slots.acquire()  # Wait for a full slot (something to consume)
         command = q1.get()       # Get the item from the queue
         q1_empty_slots.release() # Release an empty slot in the queue
-        #print(f'q1_ratio_empty_full: {q1_empty_slots}, {q1_full_slots}')
 
         if command is None:  # Termination signal
             break
