@@ -5,98 +5,102 @@ Student   : Fiona Barnett
 
 Instructions:
     - review instructions in the course
+
+In order to retrieve a weather record from the server, Use the URL:
+
+f'{TOP_API_URL}/record/{name}/{recno}
+
+where:
+
+name: name of the city
+recno: record number starting from 0
+
 """
 
 import time
 from common import *
-import queue
 
 from cse351 import *
+import queue
 
-THREADS = 30             # TODO - set for your program
-WORKERS = 30
-RECORDS_TO_RETRIEVE = 500 # Don't change
+THREADS = 100                 # TODO - set for your program
+WORKERS = 10
+RECORDS_TO_RETRIEVE = 5000  # Don't change
 
 
 # ---------------------------------------------------------------------------
-def retrieve_weather_data(q1, q2):
+def retrieve_weather_data(q1, q2, q1_empty_slots, q1_full_slots, q2_empty_slots, q2_full_slots):
     while True:
-        cmd = q1.get()
-        if cmd is None:
-            break  # Sentinel to stop the thread
+        q1_full_slots.acquire()  # Wait for a full slot (something to consume)
+        command = q1.get()       # Get the item from the queue
+        q1_empty_slots.release() # Release an empty slot in the queue
+        #print(f'q1_ratio_empty_full: {q1_empty_slots}, {q1_full_slots}')
 
-        city, recno = cmd
-        print(f"Thread received command: {cmd}")  # Debugging line
+        if command is None:  # Termination signal
+            break
 
-        # Request data from the server
-        url = f"{TOP_API_URL}/record/{city}/{recno}"
-        data = get_data_from_server(url)
-
-        if data is None:
-            print(f"Failed to retrieve data for URL: {url}")
-        else: 
-            print(f"Data retrieved: {data}")
-
-        # Debugging: Print the data that was fetched
-        print(f"Data retrieved for {city}, record {recno}: {data}")
-
-        # Try putting data into q2, but handle queue full gracefully
+        name, recno = command
+       
+        data = get_data_from_server(f'{TOP_API_URL}/record/{name}/{recno}')
+        
+        q2_empty_slots.acquire()
         q2.put(data)
+        q2_full_slots.release()
+
 
 
 # ---------------------------------------------------------------------------
 # TODO - Create Worker threaded class
 class Worker(threading.Thread):
-    def __init__(self, q2, noaa):
+    def __init__(self, q2, noaa, q2_empty_slots, q2_full_slots):
         super().__init__()
         self.q2 = q2
         self.noaa = noaa
+        self.q2_empty_slots = q2_empty_slots
+        self.q2_full_slots = q2_full_slots
 
     def run(self):
-        print(f"Worker {self.name} started")
         while True:
-            data = self.q2.get()  # BLOCKS until data is available
+            self.q2_full_slots.acquire()
+            data = self.q2.get()
+            self.q2_empty_slots.release()
+            
             if data is None:
                 break
-
-            print(f"Worker {self.name} received data: {data}")
+            
+            # assign values in triple tuple a variable
             city = data['city']
             date = data['date']
             temp = data['temp']
-            self.noaa.add_new_city(city)
-            self.noaa.store_info(city, date, temp)
-            print(f"Worker {self.name} processed and stored: City={city}, Date={date}, Temp={temp}")
-    
+
+            # store variables in noaa
+            
+            self.noaa.store_data(city,date,temp)
+            
+
+        
+        
 
 # ---------------------------------------------------------------------------
-  
 # TODO - Complete this class
 class NOAA:
+
     def __init__(self):
-        # This will store cities and their respective records (city: [(date, temp), ...])
-        self.cities_dict = {}
+        self.weather_dict = {}
+        self.lock = threading.Lock()
 
-    def add_new_city(self, city):
-        # Add city if not already present in the dictionary
-        if city not in self.cities_dict:
-            self.cities_dict[city] = []
-
-    def store_info(self, city, date, temp):
-        # Ensure temp is a float for consistent processing
-        temp = float(temp)
-        # Store the (date, temp) tuple
-        self.cities_dict[city].append((date, temp))
+    def store_data(self, city, date, temp):
+        with self.lock:
+            if city not in self.weather_dict:
+                self.weather_dict[city] = []
+            self.weather_dict[city].append((date, temp))
 
     def get_temp_details(self, city):
-        # Check if the city exists and has any records
-        if city not in self.cities_dict or len(self.cities_dict[city]) == 0:
-            return None  # Return None if no data exists
+        if city not in self.weather_dict or len(self.weather_dict[city]) == 0:
+            return None
 
-        total = 0
-        for record in self.cities_dict[city]:  # Each record is (date, temp)
-            total += record[1]  # Add the temperature value (already a float)
-
-        return total / len(self.cities_dict[city])  # Average temperature
+        total = sum(record[1] for record in self.weather_dict[city])
+        return total / len(self.weather_dict[city])  # Average temperature
 
 
 # ---------------------------------------------------------------------------
@@ -123,12 +127,19 @@ def verify_noaa_results(noaa):
         avg = noaa.get_temp_details(name)
 
         if abs(avg - answer) > 0.00001:
-            msg = f'FAILED  Excepted {answer}'
+            msg = f'FAILED  Expected {answer}'
         else:
             msg = f'PASSED'
         print(f'{name:>15}: {avg:<10} {msg}')
     print('===================================')
+# ---------------------------------------------------------------------------
 
+def producer(CITIES, records, q1, q1_empty_slots, q1_full_slots):
+    for city in CITIES:
+        for i in range(records):
+            q1_empty_slots.acquire()  # Wait for an empty slot in the queue
+            q1.put((city, i))         # Put the city and record number into the queue
+            q1_full_slots.release()   # Signal that the queue now has a full slot
 
 # ---------------------------------------------------------------------------
 def main():
@@ -149,55 +160,57 @@ def main():
     print('===================================')
     for name in CITIES:
         city_details[name] = get_data_from_server(f'{TOP_API_URL}/city/{name}')
-        print(f'{name:>15}: Records = {city_details[name]['records']:,}')
+        print(f'{name:>15}: Records = {city_details[name]["records"]:,}')
     print('===================================')
 
     records = RECORDS_TO_RETRIEVE
 
-    # Create queues and load work
-    q1 = queue.Queue(maxsize=10)  # command queue for record retrieval
-    q2 = queue.Queue(maxsize=10)  # worker queue for processing data
-    
-    # Create and start worker threads
-    worker_threads = []
-    retrieval_threads = []
+    q1_empty_slots = threading.Semaphore(10)
+    q1_full_slots = threading.Semaphore(0)
 
-    # Launch threads for retrieving weather data
-    # 1. Start workers FIRST
+    q2_empty_slots = threading.Semaphore(10)
+    q2_full_slots = threading.Semaphore(0)
+
+    q1 = queue.Queue()
+    q2 = queue.Queue()
+
+    threads = []
+    workers = []
+
+    barrier = threading.Barrier(THREADS+1)
+
+    # Start worker threads for stage 2 (processing data from q2)
     for _ in range(WORKERS):
-        t = Worker(q2, noaa)
-        t.start()
-        worker_threads.append(t)
+        w = Worker(q2, noaa, q2_empty_slots, q2_full_slots)
+        w.start()
+        workers.append(w)
 
-    # 2. Start retrieval threads NEXT
+    # Start consumer threads (stage 1, retrieving weather data and pushing to q2)
     for _ in range(THREADS):
-        t = threading.Thread(target=retrieve_weather_data, args=(q1, q2))
+        # REMOVE barrier2 from args, or set it to None if retrieve_weather_data expects it
+        t = threading.Thread(target=retrieve_weather_data, args=(q1, q2, q1_empty_slots, q1_full_slots, q2_empty_slots, q2_full_slots)) # Pass None or remove argument
         t.start()
-        retrieval_threads.append(t)
+        threads.append(t)
 
-    # 3. Add commands
-    for name in CITIES:
-        for i in range(RECORDS_TO_RETRIEVE):
-            q1.put((name, i))
-            print(f"Added command to queue: ({name}, {i})")  # Debugging statement
+    producer(CITIES, records, q1, q1_empty_slots, q1_full_slots)
 
-    # 4. Add sentinels to q1 AFTER work is enqueued
+
     for _ in range(THREADS):
+        q1_empty_slots.acquire()
         q1.put(None)
+        q1_full_slots.release()
 
-    # 5. Join retrieval threads
-    for t in retrieval_threads:
+    for t in threads:
         t.join()
 
-    # 6. Add sentinels to q2 after retrieval is fully complete
     for _ in range(WORKERS):
+        q2_empty_slots.acquire()
         q2.put(None)
+        q2_full_slots.release()
 
-    # 7. Join workers
-    for t in worker_threads:
-        t.join()
+    for w in workers:
+        w.join()
 
-    # End server - don't change below
     data = get_data_from_server(f'{TOP_API_URL}/end')
     print(data)
 
@@ -208,4 +221,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
