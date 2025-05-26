@@ -3,6 +3,8 @@ Course    : CSE 351
 Assignment: 04
 Student   : Fiona Barnett
 
+4. Meets requirements: is under 60s, uses 2 queues (max size 10), used threaded worker class, used threaded function
+
 Instructions:
     - review instructions in the course
 
