@@ -1,0 +1,20 @@
+17:24:32| ****************************************
+17:24:32| Part 2
+17:24:32| 
+17:24:32| File: ./mazes/very-small.bmp
+17:24:32| Number of drawing commands = 76
+17:24:32| Number of threads created  = 0
+17:24:43| 
+17:24:43| File: ./mazes/very-small-loops.bmp
+17:24:43| Number of drawing commands = 310
+17:24:43| Number of threads created  = 0
+17:24:52| 
+17:24:52| File: ./mazes/small.bmp
+17:24:52| Number of drawing commands = 1626
+17:24:52| Number of threads created  = 0
+17:24:54| 
+17:24:54| File: ./mazes/small-loops.bmp
+17:24:54| Number of drawing commands = 1932
+17:24:54| Number of threads created  = 0
+17:24:55| 
+17:24:55| File: ./mazes/small-odd.bmp
