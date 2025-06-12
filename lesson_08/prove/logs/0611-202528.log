@@ -1,0 +1,43 @@
+20:25:28| ****************************************
+20:25:28| Part 1
+20:25:28| 
+20:25:28| File: ./mazes/very-small.bmp
+20:25:28| Drawing commands to solve = 106
+20:26:14| Found path has length     = 11
+20:26:14| 
+20:26:14| File: ./mazes/very-small-loops.bmp
+20:26:14| Drawing commands to solve = 338
+20:26:15| Found path has length     = 47
+20:26:15| 
+20:26:15| File: ./mazes/small.bmp
+20:26:15| Drawing commands to solve = 2914
+20:26:16| Found path has length     = 79
+20:26:16| 
+20:26:16| File: ./mazes/small-loops.bmp
+20:26:16| Drawing commands to solve = 1422
+20:26:17| Found path has length     = 139
+20:26:17| 
+20:26:17| File: ./mazes/small-odd.bmp
+20:26:17| Drawing commands to solve = 2198
+20:26:18| Found path has length     = 85
+20:26:18| 
+20:26:18| File: ./mazes/small-open.bmp
+20:26:18| Drawing commands to solve = 3082
+20:26:19| Found path has length     = 385
+20:26:19| 
+20:26:19| File: ./mazes/large.bmp
+20:26:19| Drawing commands to solve = 26818
+20:26:21| Found path has length     = 1299
+20:26:21| 
+20:26:21| File: ./mazes/large-loops.bmp
+20:26:21| Drawing commands to solve = 30370
+20:26:23| Found path has length     = 991
+20:26:23| 
+20:26:23| File: ./mazes/large-squares.bmp
+20:26:23| Drawing commands to solve = 33278
+20:26:26| Found path has length     = 1015
+20:26:26| 
+20:26:26| File: ./mazes/large-open.bmp
+20:26:26| Drawing commands to solve = 5101
+20:26:27| Found path has length     = 227
+20:26:27| ****************************************

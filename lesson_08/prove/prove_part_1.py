@@ -70,6 +70,7 @@ def get_path(log, filename):
     screen = Screen(SCREEN_SIZE, SCREEN_SIZE)
     screen.background((255, 255, 0))
 
+
     maze = Maze(screen, SCREEN_SIZE, SCREEN_SIZE, filename)
 
     path = solve_path(maze)

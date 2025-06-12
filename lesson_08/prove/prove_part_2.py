@@ -71,27 +71,27 @@ speed = SLOW_SPEED
 def get_color():
     """ Returns a different color when called """
     global current_color_index
-    with color_lock:
-        if current_color_index >= len(COLORS):
-            current_color_index = 0
-        color = COLORS[current_color_index]
-        current_color_index += 1
+    if current_color_index >= len(COLORS):
+        current_color_index = 0
+    color = COLORS[current_color_index]
+    current_color_index += 1
     return color
 
 
 # TODO: Add any function(s) you need, if any, here.
-color_lock = threading.Lock()
+
+thread_lock = threading.Lock()
 
 def solve_find_end(maze):
     """ Finds the end position using threads. Nothing is returned. """
-    # When one of the threads finds the end position, stop all of them.
-    global stop
+    global stop, thread_count
     stop = False
+    thread_count = 0
 
     threads = []
 
     def dfs(position, color):
-        global thread_count, stop
+        global thread_count, stop, thread_lock
         if stop:
             return
 
@@ -106,25 +106,66 @@ def solve_find_end(maze):
             # Determine the color for this branch
             branch_color = color if i == 0 else get_color()
 
-            def thread_wrapper(m=move, c=branch_color):
-                if stop:
-                    return
-                if maze.can_move_here(m[0], m[1]):
-                    maze.move(m[0], m[1], c)
-                    dfs(m, c)
-
-            t = threading.Thread(target=thread_wrapper)
-            thread_count += 1
-            t.start()
-            threads.append(t)
-
-
-    
+            if stop:
+                return
+            if maze.can_move_here(move[0], move[1]):
+                maze.move(move[0], move[1], branch_color)
+                t = threading.Thread(target = dfs, args = (move, branch_color))
+                t.start()
+            with thread_lock:
+                thread_count += 1
+                threads.append(t)
+            
     position = maze.get_start_pos()
     dfs(position, get_color())
 
     for t in threads:
         t.join()
+
+# thread_lock = threading.Lock()
+# all_threads = []
+
+# def dfs(position, color, maze):
+#     global thread_count, stop, thread_lock, all_threads
+#     if stop:
+#         return
+
+#     curr_row, curr_col = position
+#     if maze.at_end(curr_row, curr_col):
+#         stop = True
+#         return
+
+#     open_moves = maze.get_possible_moves(curr_row, curr_col)
+
+#     for i, move in enumerate(open_moves):
+#         if stop:
+#             return
+#         if maze.can_move_here(move[0], move[1]):
+#             branch_color = color if i == 0 else get_color()
+#             maze.move(move[0], move[1], branch_color)
+
+#             if i == 0:
+#                 dfs(move, branch_color, maze)
+#             else:
+#                 t = threading.Thread(target=dfs, args=(move, branch_color, maze))
+#                 with thread_lock:
+#                     all_threads.append(t)
+#                     thread_count += 1
+#                 t.start()
+#                 time.sleep(0.001)
+
+
+# def solve_find_end(maze):
+#     global stop, thread_count, all_threads
+#     stop = False
+#     thread_count = 0
+#     all_threads = []
+
+#     start_pos = maze.get_start_pos()
+#     dfs(start_pos, get_color(), maze)
+
+#     for t in all_threads:
+#         t.join()
 
 
 
@@ -166,16 +207,16 @@ def find_ends(log):
     """ Do not change this function """
 
     files = (
+        ('small-open.bmp', False),
+        ('large-squares.bmp', False),
         ('very-small.bmp', True),
         ('very-small-loops.bmp', True),
         ('small.bmp', True),
         ('small-loops.bmp', True),
         ('small-odd.bmp', True),
-        ('small-open.bmp', False),
         ('large.bmp', False),
         ('large-loops.bmp', False),
-        ('large-squares.bmp', False),
-        ('large-open.bmp', False)
+        ('large-open.bmp', False),
     )
 
     log.write('*' * 40)

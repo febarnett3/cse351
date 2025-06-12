@@ -144,6 +144,7 @@ def producer(CITIES, records, q1, q1_empty_slots, q1_full_slots):
 
 # ---------------------------------------------------------------------------
 def main():
+    print("Script is running!")
 
     log = Log(show_terminal=True, filename_log='assignment.log')
     log.start_timer()
