@@ -28,37 +28,35 @@ SLOW_SPEED = 100
 FAST_SPEED = 1
 speed = SLOW_SPEED
 
-# TODO: Add any functions needed here.
+# Add any functions needed here.
 
 def solve_path(maze):
-    """ Solve the maze and return the path found between the start and end positions.  
-        The path is a list of positions, (x, y) """
     path = []
-
-    def dfs(position):
-        path.append(position) # add position
-        curr_row, curr_col = position # define row and col values from position
-        if maze.at_end(curr_row, curr_col): # check if maze is at end before checking moves
-            return True
-        open_moves = maze.get_possible_moves(curr_row, curr_col) # returns a list of possible moves
-        for move in open_moves:
-            if maze.can_move_here(move[0], move[1]): # making sure if move is valid
-                maze.move(move[0], move[1], COLOR) # change to red on display
-                if dfs(move): # RECURSION, for this move, add it to path, and iterate through its open_moves if not at end, will recurse until a true or false is returned in one of the rounds.
-                    return True
-                else:
-                    path.pop() # in the case that it's false return adica no open moves (can't move there!), remove move from path
-                    maze.restore(move[0], move[1]) # and change color to gray.
-        return False  # ensures recursion always returns a boolean
-
     position = maze.get_start_pos()
-    dfs(position)
+    if dfs(position, path, maze):
+        return path
     return path
 
+# Hint: You can create an inner function to do the recursion
+def dfs(position, path, maze):
+    row, col = position
 
+    if not maze.can_move_here(row, col):
+        return False
 
+    maze.move(row, col, COLOR)
+    path.append(position)
 
-    # Hint: You can create an inner function to do the recursion
+    if maze.at_end(row, col):
+        return True
+
+    for move in maze.get_possible_moves(row, col):
+        if dfs(move, path, maze):
+            return True
+
+    path.pop()
+    maze.restore(row, col)
+    return False
 
 
 def get_path(log, filename):

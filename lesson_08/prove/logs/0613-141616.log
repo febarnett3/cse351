@@ -1,0 +1,10 @@
+14:16:16| ****************************************
+14:16:16| Part 2
+14:16:16| 
+14:16:16| File: ./mazes/small-open.bmp
+14:16:17| Number of drawing commands = 2516
+14:16:17| Number of threads created  = 1888
+14:16:21| 
+14:16:21| File: ./mazes/large-squares.bmp
+14:16:21| Number of drawing commands = 16644
+14:16:21| Number of threads created  = 1
