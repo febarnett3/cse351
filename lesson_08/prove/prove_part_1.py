@@ -2,7 +2,7 @@
 Course: CSE 251 
 Assignment: 08 Prove Part 1
 File:   prove_part_1.py
-Author: <Add name here>
+Author: Fiona Barnett
 
 Purpose: Part 1 of assignment 8, finding the path to the end of a maze using recursion.
 
@@ -11,6 +11,9 @@ Instructions:
 - Do not create classes for this assignment, just functions.
 - Do not use any other Python modules other than the ones included.
 - Complete any TODO comments.
+
+4. Meets Requirements. Implements recursion through depth first search (dfs) algorithm. 
+Colors visited spots red if they are part of path, and gray if they were backtracked.
 """
 
 import math

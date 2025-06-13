@@ -2,7 +2,7 @@
 Course: CSE 351 
 Assignment: 08 Prove Part 2
 File:   prove_part_2.py
-Author: <Add name here>
+Author: Fiona Barnett
 
 Purpose: Part 2 of assignment 8, finding the path to the end of a maze using recursion.
 
@@ -34,6 +34,11 @@ This approach works because it isolates each thread’s exploration path, preven
 threads. Copying the path only when branching into new threads avoids unnecessary overhead while maintaining thread 
 safety. The lock around final_path ensures that only the first successful path is recorded, and the stop flag efficiently 
 signals other threads to terminate early.
+
+4. Meets Requirements: Implemented recursion using a depth-first search (DFS) algorithm. Creates threads for each newly 
+discovered path while preserving the progress of the original path to avoid excessive thread creation. This approach 
+eliminates the need for backtracking. Additionally, it effectively manages threads to prevent race conditions and ensure 
+proper termination.
 
 """
 
