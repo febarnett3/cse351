@@ -28,18 +28,16 @@ public class Assignment11
         
         object lockObj = new object();
         Queue<long> primeQueue = new Queue<long>();
+        Thread[] threads = new Thread[10];
 
         Console.WriteLine("Prime numbers found:");
 
         var stopwatch = Stopwatch.StartNew();
         
-        // A single for-loop to check every number sequentially.
         for (long i = START_NUMBER; i < START_NUMBER + RANGE_COUNT; i++)
         {
             primeQueue.Enqueue(i);
         }
-        
-        Thread[] threads = new Thread[10];
         
         for (int i = 0; i < 10; i++)
         {
