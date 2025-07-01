@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿// 4. Meets Requirments: Implements 10 threads and a queue to speed up program
+using System.Diagnostics;
 
 namespace assignment11;
 
