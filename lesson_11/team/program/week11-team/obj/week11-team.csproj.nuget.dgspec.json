@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\febar\\OneDrive\\Documents\\byui\\spring2025\\cse351\\lesson_11\\team\\week11-team\\week11-team.csproj": {}
+    "C:\\Users\\febar\\OneDrive\\Documents\\byui\\spring2025\\cse351\\lesson_11\\team\\program\\week11-team\\week11-team.csproj": {}
   },
   "projects": {
-    "C:\\Users\\febar\\OneDrive\\Documents\\byui\\spring2025\\cse351\\lesson_11\\team\\week11-team\\week11-team.csproj": {
+    "C:\\Users\\febar\\OneDrive\\Documents\\byui\\spring2025\\cse351\\lesson_11\\team\\program\\week11-team\\week11-team.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\febar\\OneDrive\\Documents\\byui\\spring2025\\cse351\\lesson_11\\team\\week11-team\\week11-team.csproj",
+        "projectUniqueName": "C:\\Users\\febar\\OneDrive\\Documents\\byui\\spring2025\\cse351\\lesson_11\\team\\program\\week11-team\\week11-team.csproj",
         "projectName": "week11-team",
-        "projectPath": "C:\\Users\\febar\\OneDrive\\Documents\\byui\\spring2025\\cse351\\lesson_11\\team\\week11-team\\week11-team.csproj",
+        "projectPath": "C:\\Users\\febar\\OneDrive\\Documents\\byui\\spring2025\\cse351\\lesson_11\\team\\program\\week11-team\\week11-team.csproj",
         "packagesPath": "C:\\Users\\febar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\febar\\OneDrive\\Documents\\byui\\spring2025\\cse351\\lesson_11\\team\\week11-team\\obj\\",
+        "outputPath": "C:\\Users\\febar\\OneDrive\\Documents\\byui\\spring2025\\cse351\\lesson_11\\team\\program\\week11-team\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\febar\\AppData\\Roaming\\NuGet\\NuGet.Config"
