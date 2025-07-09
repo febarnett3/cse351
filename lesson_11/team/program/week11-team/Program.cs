@@ -51,12 +51,12 @@ class Program
         var urls = filmData[kind]?.ToObject<List<string>>();
         if (urls == null || !urls.Any())
             return;
-
-        Console.WriteLine(kind.ToUpper());
-
-        Console.WriteLine($"  Number of urls = {urls.Count}");
         
-        // Use Select() to process all urls in the list at once
+        Console.WriteLine(kind.ToUpper());
+        
+        Console.WriteLine($"  Number of urls = {urls.Count}");
+
+            // Use Select() to process all urls in the list at once
         // This works because we are using async for the lambda function
         var tasks = urls.Select(async url =>
         {
@@ -79,12 +79,13 @@ class Program
         
         var film6 = await GetDataFromServerAsync($"{TopApiUrl}/films/6");
         Console.WriteLine(film6["director"]);
-
-        await GetUrlsAsync(film6, "characters");
-        await GetUrlsAsync(film6, "planets");
-        await GetUrlsAsync(film6, "starships");
-        await GetUrlsAsync(film6, "vehicles");
-        await GetUrlsAsync(film6, "species");
+    
+        // await GetUrlsAsync(film6, "characters");
+        // await GetUrlsAsync(film6, "planets");
+        // await GetUrlsAsync(film6, "starships");
+        // await GetUrlsAsync(film6, "vehicles");
+        // await GetUrlsAsync(film6, "species");
+        
         
         stopwatch.Stop();
         
