@@ -1,10 +1,13 @@
 using System.Collections.Concurrent;
 using Newtonsoft.Json.Linq;
-
+// 4. Meets Requirements. Used Tasks to parallelize data retrieval and tree building.
+// DepthFS recurses and BreathFS uses a queue.
 namespace Assignment14;
 
 public static class Solve
 {
+    private static readonly object TreeLock = new();
+    
     private static readonly HttpClient HttpClient = new()
     {
         Timeout = TimeSpan.FromSeconds(180)
@@ -45,7 +48,7 @@ public static class Solve
     // =======================================================================================================
     public static async Task<bool> DepthFS(long familyId, Tree tree)
     {
-        // Base case — skip if invalid or already processed
+        // Base case: skip if invalid or already processed
         if (familyId == 0 || tree.GetFamily(familyId) != null)
             return false;
 
@@ -55,7 +58,10 @@ public static class Solve
             return false;
 
         // Add the family to the tree
-        tree.AddFamily(family);
+        lock (TreeLock)
+        {
+            tree.AddFamily(family);
+        }
 
         // Fetch husband, wife, and children in parallel
         var personTasks = new List<Task<Person?>>
@@ -70,9 +76,12 @@ public static class Solve
         // Add people to the tree (thread-safe check)
         foreach (var person in people)
         {
-            if (person != null && !tree.PersonExists(person.Id))
+            lock (TreeLock)
             {
-                tree.AddPerson(person);
+                if (person != null && !tree.PersonExists(person.Id))
+                {
+                    tree.AddPerson(person);
+                }
             }
         }
 
@@ -119,8 +128,11 @@ public static class Solve
             {
                 var family = await FetchFamilyAsync(currentFamId);
                 if (family == null) return;
-
-                tree.AddFamily(family);
+                
+                lock (TreeLock)
+                {
+                    tree.AddFamily(family);
+                }
 
                 // Fetch people concurrently
                 var personTasks = new List<Task<Person?>>
@@ -133,8 +145,11 @@ public static class Solve
 
                 foreach (var person in people)
                 {
-                    if (person != null && !tree.PersonExists(person.Id))
-                        tree.AddPerson(person);
+                    lock  (TreeLock)
+                    {
+                        if (person != null && !tree.PersonExists(person.Id))
+                            tree.AddPerson(person);
+                    }
                 }
 
                 // Enqueue parents of people for future processing

@@ -1,26 +1,26 @@
-[14:21:59.449] [DEBUG] 
+[21:40:25.335] [DEBUG] 
 
-[14:21:59.477] [DEBUG] #############################################
-[14:21:59.477] [DEBUG] Depth First Search: 6 generations
-[14:21:59.478] [DEBUG] #############################################
-[14:22:09.083] [DEBUG] 
-[14:22:09.092] [DEBUG] total_time                  : 9.34720
-[14:22:09.093] [DEBUG] Generations                 : 6
-[14:22:09.095] [DEBUG] STATS        Retrieved | Server details
-[14:22:09.099] [DEBUG] People  :          408 |            446
-[14:22:09.101] [DEBUG] Families:           61 |             63
-[14:22:09.102] [DEBUG] API Calls                   : 529
-[14:22:09.103] [DEBUG] Max number of threads       : 65
-[14:22:09.360] [DEBUG] 
+[21:40:25.376] [DEBUG] #############################################
+[21:40:25.377] [DEBUG] Depth First Search: 6 generations
+[21:40:25.378] [DEBUG] #############################################
+[21:40:29.228] [DEBUG] 
+[21:40:29.239] [DEBUG] total_time                  : 3.56120
+[21:40:29.266] [DEBUG] Generations                 : 6
+[21:40:29.285] [DEBUG] STATS        Retrieved | Server details
+[21:40:29.299] [DEBUG] People  :          420 |            420
+[21:40:29.305] [DEBUG] Families:           63 |             63
+[21:40:29.307] [DEBUG] API Calls                   : 547
+[21:40:29.309] [DEBUG] Max number of threads       : 240
+[21:40:29.575] [DEBUG] 
 
-[14:22:09.361] [DEBUG] #############################################
-[14:22:09.362] [DEBUG] Breath First Search: 6 generations
-[14:22:09.362] [DEBUG] #############################################
-[14:22:17.408] [DEBUG] 
-[14:22:17.409] [DEBUG] total_time                  : 7.78824
-[14:22:17.411] [DEBUG] Generations                 : 6
-[14:22:17.411] [DEBUG] STATS        Retrieved | Server details
-[14:22:17.412] [DEBUG] People  :          285 |            453
-[14:22:17.413] [DEBUG] Families:           49 |             63
-[14:22:17.414] [DEBUG] API Calls                   : 381
-[14:22:17.415] [DEBUG] Max number of threads       : 46
+[21:40:29.578] [DEBUG] #############################################
+[21:40:29.579] [DEBUG] Breath First Search: 6 generations
+[21:40:29.581] [DEBUG] #############################################
+[21:40:33.207] [DEBUG] 
+[21:40:33.208] [DEBUG] total_time                  : 3.35675
+[21:40:33.209] [DEBUG] Generations                 : 6
+[21:40:33.212] [DEBUG] STATS        Retrieved | Server details
+[21:40:33.213] [DEBUG] People  :          395 |            395
+[21:40:33.233] [DEBUG] Families:           63 |             63
+[21:40:33.234] [DEBUG] API Calls                   : 522
+[21:40:33.236] [DEBUG] Max number of threads       : 241
