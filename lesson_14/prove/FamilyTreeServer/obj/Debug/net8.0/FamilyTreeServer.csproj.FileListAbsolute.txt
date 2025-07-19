@@ -1,0 +1,15 @@
+C:\Users\febar\OneDrive\Documents\byui\spring2025\cse351\lesson_14\prove\FamilyTreeServer\bin\Debug\net8.0\FamilyTreeServer.exe
+C:\Users\febar\OneDrive\Documents\byui\spring2025\cse351\lesson_14\prove\FamilyTreeServer\bin\Debug\net8.0\FamilyTreeServer.deps.json
+C:\Users\febar\OneDrive\Documents\byui\spring2025\cse351\lesson_14\prove\FamilyTreeServer\bin\Debug\net8.0\FamilyTreeServer.runtimeconfig.json
+C:\Users\febar\OneDrive\Documents\byui\spring2025\cse351\lesson_14\prove\FamilyTreeServer\bin\Debug\net8.0\FamilyTreeServer.dll
+C:\Users\febar\OneDrive\Documents\byui\spring2025\cse351\lesson_14\prove\FamilyTreeServer\bin\Debug\net8.0\FamilyTreeServer.pdb
+C:\Users\febar\OneDrive\Documents\byui\spring2025\cse351\lesson_14\prove\FamilyTreeServer\obj\Debug\net8.0\FamilyTreeServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\febar\OneDrive\Documents\byui\spring2025\cse351\lesson_14\prove\FamilyTreeServer\obj\Debug\net8.0\FamilyTreeServer.AssemblyInfoInputs.cache
+C:\Users\febar\OneDrive\Documents\byui\spring2025\cse351\lesson_14\prove\FamilyTreeServer\obj\Debug\net8.0\FamilyTreeServer.AssemblyInfo.cs
+C:\Users\febar\OneDrive\Documents\byui\spring2025\cse351\lesson_14\prove\FamilyTreeServer\obj\Debug\net8.0\FamilyTreeServer.csproj.CoreCompileInputs.cache
+C:\Users\febar\OneDrive\Documents\byui\spring2025\cse351\lesson_14\prove\FamilyTreeServer\obj\Debug\net8.0\FamilyTreeServer.sourcelink.json
+C:\Users\febar\OneDrive\Documents\byui\spring2025\cse351\lesson_14\prove\FamilyTreeServer\obj\Debug\net8.0\FamilyTreeServer.dll
+C:\Users\febar\OneDrive\Documents\byui\spring2025\cse351\lesson_14\prove\FamilyTreeServer\obj\Debug\net8.0\refint\FamilyTreeServer.dll
+C:\Users\febar\OneDrive\Documents\byui\spring2025\cse351\lesson_14\prove\FamilyTreeServer\obj\Debug\net8.0\FamilyTreeServer.pdb
+C:\Users\febar\OneDrive\Documents\byui\spring2025\cse351\lesson_14\prove\FamilyTreeServer\obj\Debug\net8.0\FamilyTreeServer.genruntimeconfig.cache
+C:\Users\febar\OneDrive\Documents\byui\spring2025\cse351\lesson_14\prove\FamilyTreeServer\obj\Debug\net8.0\ref\FamilyTreeServer.dll
